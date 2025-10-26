@@ -1,18 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { LigaService } from '../../../services/liga.service';
-import { LIGAS, EQUIPOS_ICONOS } from '../../../config/constants';
-import { Lucha } from '../../../core/models/models';
+import { LigaService } from '../../services/liga.service';
+import { LIGAS, EQUIPOS_ICONOS } from '../../config/constants';
+import { Lucha } from '../../core/models/models';
 
 @Component({
-  selector: 'app-liga-insular',
-  templateUrl: './liga-insular.component.html',
-  styleUrls: ['./liga-insular.component.scss'],
+  selector: 'app-zona-noroeste',
+  templateUrl: './zona-noroeste.component.html',
+  styleUrls: ['./zona-noroeste.component.scss'],
   standalone: true,
   imports: [CommonModule, MatProgressSpinnerModule]
 })
-export class LigaInsularComponent implements OnInit
+export class ZonaNoroesteComponent implements OnInit
 {
   luchas: Lucha[] = [];
   jornadas: { numero: number, luchas: Lucha[] }[] = [];
@@ -24,7 +24,7 @@ export class LigaInsularComponent implements OnInit
 
   ngOnInit(): void
   {
-    const liga = LIGAS.INSULAR;
+    const liga = LIGAS.REGIONAL;
     this.loadLuchas(liga.url, liga.fallbackCsv);
   }
 

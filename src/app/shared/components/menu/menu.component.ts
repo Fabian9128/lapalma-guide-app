@@ -29,39 +29,33 @@ export class MenuComponent
     this.drawer?.close();
   }
 
-  navigateToNormativa()
+  navigateToNoreste()
   {
-    this.router.navigate(['/normativa']);
+    this.router.navigate(['/zona-noreste']);
     this.drawer?.close();
   }
 
-  navigateToPlantillas()
+  navigateToEste()
   {
-    this.router.navigate(['/plantillas']);
+    this.router.navigate(['/zona-este']);
     this.drawer?.close();
   }
 
-  navigateToClasificaciones()
+  navigateToSur()
   {
-    this.router.navigate(['/clasificaciones']);
+    this.router.navigate(['/zona-sur']);
     this.drawer?.close();
   }
 
-  navigateToLigaInsular()
+  navigateToValle()
   {
-    this.router.navigate(['/liga-insular']);
+    this.router.navigate(['/zona-valle']);
     this.drawer?.close();
   }
 
-  navigateToLigaRegional()
+  navigateToNoroeste()
   {
-    this.router.navigate(['/liga-regional']);
-    this.drawer?.close();
-  }
-
-  navigateToCopaRegional()
-  {
-    this.router.navigate(['/copa-regional']);
+    this.router.navigate(['/zona-noroeste']);
     this.drawer?.close();
   }
 }

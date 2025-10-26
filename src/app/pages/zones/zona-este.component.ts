@@ -11,10 +11,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatChipsModule } from '@angular/material/chips';
 
-import { RankingService } from '../../../services/ranking.service';
+import { RankingService } from '../../services/ranking.service';
 
 @Component({
-  selector: 'app-ranking',
+  selector: 'app-zona-este',
   standalone: true,
   imports: [
     CommonModule,
@@ -29,11 +29,11 @@ import { RankingService } from '../../../services/ranking.service';
     MatSelectModule,
     MatChipsModule
   ],
-  templateUrl: './ranking.component.html',
-  styleUrls: ['./ranking.component.scss'],
+  templateUrl: './zona-este.component.html',
+  styleUrls: ['./zona-este.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class RankingComponent implements OnInit
+export class ZonaEsteComponent implements OnInit
 {
   private rankingService = inject(RankingService);
 

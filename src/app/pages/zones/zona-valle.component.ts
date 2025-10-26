@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 
 @Component({
-  selector: 'app-normativa',
+  selector: 'app-zona-valle',
   standalone: true,
   imports: [CommonModule, MatCardModule],
-  templateUrl: './normativa.component.html',
-  styleUrls: ['./normativa.component.scss'],
+  templateUrl: './zona-valle.component.html',
+  styleUrls: ['./zona-valle.component.scss'],
 })
-export class NormativaComponent {}
+export class ZonaValleComponent {}

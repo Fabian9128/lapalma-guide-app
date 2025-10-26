@@ -4,16 +4,16 @@ import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { Observable } from 'rxjs';
 import { FormsModule } from '@angular/forms';
-import { Equipo, PlantillasData } from '../../../core/models/models';
+import { Equipo, PlantillasData } from '../../core/models/models';
 
 @Component({
-  selector: 'app-plantillas',
+  selector: 'app-zona-sur',
   standalone: true,
   imports: [CommonModule, FormsModule, MatCardModule],
-  templateUrl: './plantillas.component.html',
-  styleUrls: ['./plantillas.component.scss'],
+  templateUrl: './zona-sur.component.html',
+  styleUrls: ['./zona-sur.component.scss'],
 })
-export class PlantillasComponent
+export class ZonaSurComponent
 {
   plantillas$: Observable<PlantillasData>;
   filteredEquipos: Equipo[] = [];
