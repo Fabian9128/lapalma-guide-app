@@ -1,0 +1,24 @@
+<mat-drawer-container class="home-container" [hasBackdrop]="true" autosize mode="side">
+  <app-header [drawer]="drawer"></app-header>
+
+  <mat-drawer #drawer class="home-sidenav">
+    <app-menu [drawer]="drawer"></app-menu>
+  </mat-drawer>
+
+  <div class="main-container">
+    <ng-container *ngIf="router.url === '/'">
+      <div class="home-buttons-container">
+        <div class="home-button" (click)="goTo('actividades')">
+          <label class="home-label">ACTIVIDADES</label>
+          <img src="assets/images/actividades.png" alt="Actividades" />
+        </div>
+        <div class="home-button" (click)="goTo('restaurantes')">
+          <label class="home-label">RESTAURANTES</label>
+          <img src="assets/images/restaurantes.png" alt="Restaurantes" />
+        </div>
+      </div>
+    </ng-container>
+
+    <router-outlet></router-outlet>
+  </div>
+</mat-drawer-container>

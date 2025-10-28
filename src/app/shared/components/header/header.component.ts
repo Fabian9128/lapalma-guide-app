@@ -25,7 +25,7 @@ export class HeaderComponent implements OnInit {
   @Input() drawer: MatDrawer | null = null;
 
   pageTitle = 'GUÍA LA PALMA APP';
-  isInicio = false;
+  isHome = false;
 
   private router = inject(Router);
 
@@ -45,26 +45,36 @@ export class HeaderComponent implements OnInit {
 
     if (route.includes('/zona-noreste')) {
       this.pageTitle = 'ZONA NORESTE';
-      this.isInicio = false;
+      this.isHome = false;
     } else if (route.includes('/zona-sur')) {
       this.pageTitle = 'ZONA SUR';
-      this.isInicio = false;
+      this.isHome = false;
     } else if (route.includes('/zona-valle')) {
       this.pageTitle = 'ZONA VALLE';
-      this.isInicio = false;
+      this.isHome = false;
     } else if (route.includes('/zona-noroeste')) {
       this.pageTitle = 'ZONA NOROESTE';
-      this.isInicio = false;
+      this.isHome = false;
     } else if (route.includes('/zona-este')) {
       this.pageTitle = 'ZONA ESTE';
-      this.isInicio = false;
+      this.isHome = false;
+    } else if (route.includes('/restaurantes')) {
+      this.pageTitle = 'RESTAURANTES';
+      this.isHome = false;
+    } else if (route.includes('/actividades')) {
+      this.pageTitle = 'ACTIVIDADES';
+      this.isHome = false;
     } else {
       this.pageTitle = 'GUÍA LA PALMA APP';
-      this.isInicio = true;
+      this.isHome = true;
     }
   }
 
   toggleMenu(): void {
     this.drawer?.toggle();
+  }
+
+  goHome() {
+    this.router.navigate(['/']);
   }
 }

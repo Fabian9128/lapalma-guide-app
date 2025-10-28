@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 
 @Component({
-  selector: 'app-inicio',
+  selector: 'app-zona-valle',
   standalone: true,
   imports: [CommonModule, MatCardModule],
-  templateUrl: './inicio.component.html',
-  styleUrls: ['./inicio.component.scss'],
+  templateUrl: './actividades.component.html',
+  styleUrls: ['./actividades.component.scss'],
 })
-export class InicioComponent {}
+export class ActividadesComponent {}

@@ -23,12 +23,6 @@ export class MenuComponent
 
   private router = inject(Router);
 
-  navigateToInicio()
-  {
-    this.router.navigate(['/inicio']);
-    this.drawer?.close();
-  }
-
   navigateToNoreste()
   {
     this.router.navigate(['/zona-noreste']);
