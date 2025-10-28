@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
-import { Lucha } from '../core/models/models';
+import { Lucha } from '../shared/models/models';
 
 @Injectable({
   providedIn: 'root'
