@@ -31,11 +31,11 @@ Este repositorio contiene una **versión pública y simplificada** de la aplicac
 
 1. Clonar el repositorio / Clone the repository:
    ```bash
-   git clone https://github.com/Fabian9128/saber-luchar-app-public.git
+   git clone https://github.com/Fabian9128/lapalma-guide-app-public.git
 
 2. Entrar en la carpeta del proyecto / Navigate into the project folder:
    ```bash
-   cd saber-luchar-app-public
+   cd lapalma-guide-app-public
 
 3. Instalar dependencias / Install dependencies:
    ```bash
@@ -53,11 +53,11 @@ Este repositorio contiene una **versión pública y simplificada** de la aplicac
 
 ## 📖 Notas adicionales / Additional notes
 
-Esta es una versión demostrativa.  
-Para un despliegue real, la aplicación debería conectarse a un backend y base de datos.  
+Esta es una versión demostrativa.
+Para un despliegue real, la aplicación debería conectarse a un backend y base de datos.
 El código está pensado como ejemplo para revisión técnica y portafolio.
 
-🔗 **Demo pública disponible aquí / Public demo available here:**  
+🔗 **Demo pública disponible aquí / Public demo available here:**
 👉 [https://saber-luchar.netlify.app](https://saber-luchar.netlify.app)
 
 *(Versión sin conexión a servidor ni datos reales — solo para visualización de la interfaz)*
