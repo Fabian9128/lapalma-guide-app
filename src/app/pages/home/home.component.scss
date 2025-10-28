@@ -10,8 +10,7 @@
 .main-container {
   position: relative;
   width: 100%;
-  min-height: 92.3vh;
-  height: auto;
+  height: calc(100vh - 64px);
   box-sizing: border-box;
   overflow: hidden;
 
@@ -24,9 +23,15 @@
 
   image-rendering: auto;
   color: var(--color-secondary);
+
+  display: block;
+}
+
+.home-buttons-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .home-buttons-container {
@@ -69,14 +74,6 @@
 }
 
 @media (max-width: 768px) {
-  .main-container {
-    min-height: 100vh;
-    background-position: center top;
-    background-image:
-      linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-      url("/assets/images/arena.avif");
-  }
-
   .home-buttons-container {
     flex-direction: column;
     gap: 24px;

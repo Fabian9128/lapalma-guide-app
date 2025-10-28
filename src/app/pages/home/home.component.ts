@@ -28,4 +28,8 @@ export class HomeComponent
   goTo(section: string) {
     this.router.navigate([`/${section}`]);
   }
+
+  get isHome(): boolean {
+    return this.router.url === '/';
+  }
 }
