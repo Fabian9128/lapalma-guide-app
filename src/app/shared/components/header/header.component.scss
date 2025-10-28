@@ -6,6 +6,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #174E39;
+  color: #F4DDBE;
   gap: 8px;
 }
 
@@ -17,8 +19,17 @@
 }
 
 #header {
-  border-bottom: 8px solid;
+  border-bottom: 4px solid;
   border-image: linear-gradient(to right, #ffffff, #2997df, #ffd21f) 1;
+  background-color: #174E39;
+}
+
+.menu-button {
+  color: #F4DDBE !important;
+}
+
+.menu-button mat-icon {
+  color: #F4DDBE !important;
 }
 
 @media (max-width: 768px) {

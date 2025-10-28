@@ -8,12 +8,40 @@
 }
 
 .main-container {
-  padding: 20px 30px;
-  background-image: url("/assets/images/arena.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
   min-height: 92.3vh;
   height: auto;
   box-sizing: border-box;
+  overflow: hidden;
+
+  /* Fondo con imagen y overlay muy suave y neutro */
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), /* leve sombra para contraste */
+    url("/assets/images/arena.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  image-rendering: auto;
+  color: #F4DDBE; /* texto beige legible */
+}
+
+/* Ajustes responsive */
+@media (max-width: 768px) {
+  .main-container {
+    min-height: 100vh;
+    background-position: center top;
+
+    /* un poco más claro en móvil para no oscurecer demasiado */
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+      url("/assets/images/arena.avif");
+  }
+}
+
+@media (max-width: 480px) {
+  .home-sidenav {
+    padding: 20px 20px 20px 10px;
+  }
 }

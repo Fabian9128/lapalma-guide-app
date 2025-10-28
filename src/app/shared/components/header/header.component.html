@@ -1,6 +1,5 @@
 <mat-toolbar color="primary" id="header">
-
-  <button type="button" mat-icon-button (click)="toggleMenu()">
+  <button type="button" mat-icon-button (click)="toggleMenu()" class="menu-button">
     <mat-icon>menu</mat-icon>
   </button>
 
@@ -8,9 +7,8 @@
     {{ pageTitle }}
     <img
       *ngIf="isInicio"
-      src="assets/images/luchaIcon.png"
+      src="assets/images/guia-lapalma-icon.png"
       alt="icono"
       class="title-icon">
   </span>
-
 </mat-toolbar>
