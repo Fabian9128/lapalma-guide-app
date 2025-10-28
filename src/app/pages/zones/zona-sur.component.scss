@@ -1,91 +1,46 @@
-.plantillas-select-native {
-  position: relative;
-  display: inline-block;
+.information-container {
   width: 100%;
-  max-width: 400px;
-  margin: 1px 0 0 8px;
-}
-
-.plantillas-select-native select {
-  width: 100%;
-  padding: 30px 12px 8px 12px;
-  background-color: #2997df;
-  color: #ffd21f;
-  border: none;
-  border-radius: 4px;
-  font-size: 14px;
-  font-weight: bold;
-  appearance: none;
-}
-
-.plantillas-select-native .floating-label {
-  position: absolute;
-  top: 6px;
-  left: 12px;
-  font-size: 20px;
-  font-weight: bold;
-  color: #ffd21f;
-  pointer-events: none;
-  transition: 0.2s ease all;
-}
-
-.plantillas-select-native select:focus + .floating-label,
-.plantillas-select-native select:valid + .floating-label {
-  transform: translateY(-18px);
-  font-size: 20px;
-}
-
-.plantillas-container {
+  margin: 16px auto;
   display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: flex-start;
-  max-width: 1200px;
-  margin: 0;
-  padding: 8px;
-}
-
-.equipo-card {
-  flex: 1 1 300px;
-  max-width: 400px;
-  background-color: #ffffff;
-  border-radius: 16px;
+  flex-direction: column;
   box-sizing: border-box;
-  overflow: hidden;
+  height: flex;
 }
 
-.equipo-header {
-  display: flex;
-  align-items: center;
-  background-color: #2997df;
-  color: #ffd21f;
+.information-header {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
   padding: 12px;
-  border-radius: 12px 12px 0 0;
+  border-radius: 4px 4px 0 0;
+  text-align: center;
 }
 
-.equipo-logo {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-  margin-right: 12px;
-}
-
-.equipo-card h1 {
+.information-header h1 {
   margin: 0;
   font-size: 20px;
 }
 
-.plantilla-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 0px;
-  background-color: #ffffff;
-  color: #000000;
+.information-content {
+  flex: 1;
+  padding: 16px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  overflow-y: auto;
+  box-sizing: border-box;
 }
 
-.plantilla-table th,
-.plantilla-table td {
-  border: 1px solid #ccc;
-  padding: 6px 12px;
-  text-align: left;
+@media (max-width: 768px) {
+  .information-container {
+    height: 80vh;
+  }
+
+  .information-header h1 {
+    font-size: 1.2rem;
+  }
+
+  .information-content {
+    padding: 12px;
+    font-size: 13px;
+  }
 }

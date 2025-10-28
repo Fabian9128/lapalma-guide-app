@@ -1,28 +1,26 @@
-.container {
-  max-width: 1200px;
+.information-container {
   width: 100%;
   margin: 16px auto;
-  padding: 0;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  height: 80vh;
+  height: flex;
 }
 
-.header {
-  background-color: #2997df;
-  color: #ffd21f;
+.information-header {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
   padding: 12px;
   border-radius: 4px 4px 0 0;
   text-align: center;
 }
 
-.header h1 {
+.information-header h1 {
   margin: 0;
   font-size: 20px;
 }
 
-.content {
+.information-content {
   flex: 1;
   padding: 16px;
   font-size: 14px;
@@ -33,15 +31,15 @@
 }
 
 @media (max-width: 768px) {
-  .container {
+  .information-container {
     height: 80vh;
   }
 
-  .header h1 {
+  .information-header h1 {
     font-size: 1.2rem;
   }
 
-  .content {
+  .information-content {
     padding: 12px;
     font-size: 13px;
   }

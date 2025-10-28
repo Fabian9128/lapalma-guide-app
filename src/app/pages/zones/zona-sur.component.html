@@ -1,33 +1,20 @@
-<div class="plantillas-select-native">
-  <label for="isla" class="floating-label">SELECCIONA ISLA</label>
-  <select id="isla" [(ngModel)]="selectedIsla" (change)="filterByIsla()" required>
-    <option value="" disabled selected hidden></option>
-    <option *ngFor="let isla of islas" [value]="isla">{{ isla }}</option>
-  </select>
-</div>
+<div class="page-container">
 
-<div class="plantillas-container">
-  <div *ngFor="let equipo of filteredEquipos" class="equipo-card">
-    <div class="equipo-header">
-      <img *ngIf="equipo.logo" [src]="equipo.logo" alt="{{ equipo.nombre }}" class="equipo-logo">
-      <h1>{{ equipo.nombre }}</h1>
+  <mat-card class="information-container">
+    <div class="information-header">
+      <h1>RESTAURANTES</h1>
     </div>
 
-    <div class="table-container">
-      <table class="plantilla-table">
-        <thead>
-          <tr>
-            <th>LUCHADOR</th>
-            <th>CATEGORÍA</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let luchador of equipo.luchadores">
-            <td>{{ luchador.nombre }}</td>
-            <td>{{ luchador.categoria }}</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="information-content">
     </div>
-  </div>
+  </mat-card>
+
+  <mat-card class="information-container">
+    <div class="information-header">
+      <h1>ACTIVIDADES</h1>
+    </div>
+
+    <div class="information-content">
+    </div>
+  </mat-card>
 </div>

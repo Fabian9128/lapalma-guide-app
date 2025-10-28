@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { Observable } from 'rxjs';
 import { FormsModule } from '@angular/forms';
-import { Equipo, PlantillasData } from '../../core/models/models';
+import { Equipo, PlantillasData } from '../../shared/models/models';
 
 @Component({
   selector: 'app-zona-sur',
