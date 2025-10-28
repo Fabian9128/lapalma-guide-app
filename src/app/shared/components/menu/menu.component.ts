@@ -23,45 +23,33 @@ export class MenuComponent
 
   private router = inject(Router);
 
-  navigateToInicio()
+  navigateToNoreste()
   {
-    this.router.navigate(['/inicio']);
+    this.router.navigate(['/zona-noreste']);
     this.drawer?.close();
   }
 
-  navigateToNormativa()
+  navigateToEste()
   {
-    this.router.navigate(['/normativa']);
+    this.router.navigate(['/zona-este']);
     this.drawer?.close();
   }
 
-  navigateToPlantillas()
+  navigateToSur()
   {
-    this.router.navigate(['/plantillas']);
+    this.router.navigate(['/zona-sur']);
     this.drawer?.close();
   }
 
-  navigateToClasificaciones()
+  navigateToValle()
   {
-    this.router.navigate(['/clasificaciones']);
+    this.router.navigate(['/zona-valle']);
     this.drawer?.close();
   }
 
-  navigateToLigaInsular()
+  navigateToNoroeste()
   {
-    this.router.navigate(['/liga-insular']);
-    this.drawer?.close();
-  }
-
-  navigateToLigaRegional()
-  {
-    this.router.navigate(['/liga-regional']);
-    this.drawer?.close();
-  }
-
-  navigateToCopaRegional()
-  {
-    this.router.navigate(['/copa-regional']);
+    this.router.navigate(['/zona-noroeste']);
     this.drawer?.close();
   }
 }

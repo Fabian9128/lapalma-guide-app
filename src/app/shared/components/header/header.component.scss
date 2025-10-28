@@ -6,6 +6,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
   gap: 8px;
 }
 
@@ -17,14 +19,24 @@
 }
 
 #header {
-  border-bottom: 8px solid;
+  border-bottom: 4px solid;
   border-image: linear-gradient(to right, #ffffff, #2997df, #ffd21f) 1;
+  background-color: var(--color-primary);
+}
+
+.menu-button {
+  color: var(--color-secondary) !important;
+}
+
+.menu-button mat-icon {
+  color: var(--color-secondary) !important;
 }
 
 @media (max-width: 768px) {
   .maq-app-title {
     font-size: 1.1rem;
   }
+
   .title-icon {
     width: 40px;
     height: 40px;
@@ -35,6 +47,7 @@
   .maq-app-title {
     font-size: 0.95rem;
   }
+
   .title-icon {
     width: 35px;
     height: 35px;

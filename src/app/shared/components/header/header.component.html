@@ -1,11 +1,12 @@
 <mat-toolbar color="primary" id="header">
-
-  <button type="button" mat-icon-button (click)="toggleMenu()">
-    <mat-icon>menu</mat-icon>
+  <button type="button" mat-icon-button class="menu-button"
+          (click)="isHome ? toggleMenu() : goHome()">
+    <mat-icon>{{ isHome ? 'menu' : 'home' }}</mat-icon>
   </button>
 
   <span class="maq-app-title">
-    SABER Y LUCHAR APP
-    <img src="assets/images/luchaIcon.png" alt="icono" class="title-icon">
+    {{ pageTitle }}
+    <img *ngIf="isHome" src="assets/images/guia-lapalma-icon.png"
+         alt="icono" class="title-icon">
   </span>
 </mat-toolbar>
