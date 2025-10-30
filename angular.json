@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "saber-luchar-app": {
+    "lapalma-guide-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -66,10 +66,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "saber-luchar-app:build:production"
+              "buildTarget": "lapalma-guide-app:build:production"
             },
             "development": {
-              "buildTarget": "saber-luchar-app:build:development"
+              "buildTarget": "lapalma-guide-app:build:development"
             }
           },
           "defaultConfiguration": "development"
