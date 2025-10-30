@@ -1,0 +1,110 @@
+[
+  {
+    "zona": "Noreste",
+    "nombre": "Playa de Nogales",
+    "tipo": "Playa",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "Puerto Paja",
+    "tipo": "Piscina natural",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "Fuente de San Juan",
+    "tipo": "Fuente histórica",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "Mirador de San Bartolo",
+    "tipo": "Mirador",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "Cubo de La Galga",
+    "tipo": "Sendero",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "El Tendal",
+    "tipo": "Parque arqueológico",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "Los Tilos",
+    "tipo": "Senderos y cascadas",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "Marcos y Cordero",
+    "tipo": "Ruta larga con cascadas",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "Charco Azul",
+    "tipo": "Piscinas naturales",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "San Andrés",
+    "tipo": "Pueblo costero",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "Puerto Espíndola",
+    "tipo": "Playa",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "Faro de Punta Cumplida",
+    "tipo": "Faro/hotel",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "La Fajana",
+    "tipo": "Piscinas naturales",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "Laguna de Barlovento",
+    "tipo": "Área recreativa",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "Carretera de las Mimbreras",
+    "tipo": "Carretera panorámica",
+    "url": ""
+  },
+  {
+    "zona": "Este",
+    "nombre": "Santa Cruz de La Palma",
+    "tipo": "Ciudad",
+    "url": ""
+  },
+  {
+    "zona": "Este",
+    "nombre": "Nuestra Señora de Las Nieves",
+    "tipo": "Ermita",
+    "url": ""
+  },
+  {
+    "zona": "Este",
+    "nombre": "Los Cancajos",
+    "tipo": "Playa",
+    "url": ""
+  }
+]
