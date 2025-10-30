@@ -1,5 +1,4 @@
 <div class="page-container">
-
   <mat-card class="information-container">
     <div class="information-header">
       <h1>
@@ -8,6 +7,16 @@
     </div>
 
     <div class="information-content">
+      <div class="restaurante-item" *ngFor="let r of restaurantes; let last = last">
+        <p><strong>{{ r.nombre }}</strong></p>
+        <p><strong>Zona:</strong> {{ r.zona }}</p>
+        <p><strong>Tipo:</strong> {{ r.tipo }}</p>
+        <p><strong>Precio:</strong> {{ r.precio }}</p>
+        <p *ngIf="r.url"><a [href]="r.url" target="_blank">Ver en Google Maps</a></p>
+
+        <!-- separador solo si no es el último -->
+        <hr class="separator" *ngIf="!last" />
+      </div>
     </div>
   </mat-card>
 </div>

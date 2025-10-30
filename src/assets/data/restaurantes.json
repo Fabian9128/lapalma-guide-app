@@ -1,0 +1,128 @@
+[
+  {
+    "zona": "Noreste",
+    "nombre": "Casa Asterio",
+    "tipo": "Comida canaria",
+    "precio": "€",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "Mesón del Mar",
+    "tipo": "Pescado",
+    "precio": "€",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "Rompecabos",
+    "tipo": "Pescado",
+    "precio": "€€",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "San Andrés",
+    "tipo": "Pescado",
+    "precio": "€",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "La Placita",
+    "tipo": "Pescado y thai",
+    "precio": "€€",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "La Pradera",
+    "tipo": "Comida canaria",
+    "precio": "€",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "El Campesino",
+    "tipo": "Comida canaria",
+    "precio": "€",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "La Gaviota",
+    "tipo": "Pescado",
+    "precio": "€€",
+    "url": ""
+  },
+  {
+    "zona": "Noreste",
+    "nombre": "El Canal",
+    "tipo": "Cocina de autor",
+    "precio": "€€",
+    "url": ""
+  },
+  {
+    "zona": "Este",
+    "nombre": "Chipi Chipi",
+    "tipo": "Comida canaria",
+    "precio": "€",
+    "url": ""
+  },
+  {
+    "zona": "Este",
+    "nombre": "Casa Osmunda",
+    "tipo": "Alta cocina",
+    "precio": "€€€",
+    "url": ""
+  },
+  {
+    "zona": "Este",
+    "nombre": "El Chinchal",
+    "tipo": "Cocina de autor",
+    "precio": "€€",
+    "url": ""
+  },
+  {
+    "zona": "Este",
+    "nombre": "Bululú",
+    "tipo": "Venezolana y fusión",
+    "precio": "€",
+    "url": ""
+  },
+  {
+    "zona": "Este",
+    "nombre": "La Terraza",
+    "tipo": "Papas locas",
+    "precio": "€",
+    "url": ""
+  },
+  {
+    "zona": "Este",
+    "nombre": "La Chalana",
+    "tipo": "Pescado",
+    "precio": "€",
+    "url": ""
+  },
+  {
+    "zona": "Este",
+    "nombre": "Isla de Goya",
+    "tipo": "Tapas",
+    "precio": "€€",
+    "url": ""
+  },
+  {
+    "zona": "Este",
+    "nombre": "Ajua",
+    "tipo": "Mexicana",
+    "precio": "€€",
+    "url": ""
+  },
+  {
+    "zona": "Este",
+    "nombre": "Carlos Tasca",
+    "tipo": "Cocina de autor",
+    "precio": "€€",
+    "url": ""
+  }
+]

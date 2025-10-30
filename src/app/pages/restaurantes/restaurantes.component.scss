@@ -4,15 +4,19 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  height: auto;
+  height: 87vh;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .information-header {
   background-color: var(--color-primary);
   color: var(--color-secondary);
   padding: 12px;
-  border-radius: 4px 4px 0 0;
+  border-radius: 12px 12px 0 0;
   text-align: center;
+  flex-shrink: 0;
 }
 
 .information-header h1 {
@@ -25,9 +29,43 @@
   padding: 16px;
   font-size: 14px;
   color: #333;
-  line-height: 1.5;
+  line-height: 1.6;
   overflow-y: auto;
   box-sizing: border-box;
+  width: 100%;
+}
+
+.restaurante-item {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  align-items: center;
+  padding: 8px 0;
+  width: 100%;
+}
+
+.restaurante-item p {
+  margin: 4px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.restaurante-item a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.restaurante-item a:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 12px 0;
+  grid-column: 1 / -1;
 }
 
 .information-header mat-icon {
@@ -39,30 +77,38 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: transparent;
 }
 
 @media (max-width: 768px) {
   .information-container {
-    height: auto;
+    height: 90vh;
     margin: 12px auto;
-  }
-
-  .information-header h1 {
-    font-size: 1.2rem;
   }
 
   .information-content {
     padding: 12px;
     font-size: 13px;
   }
+
+  .restaurante-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 8px 16px;
+    align-items: start;
+    word-wrap: break-word;
+  }
+
+  .restaurante-item p {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
+  }
 }
 
 @media (max-width: 480px) {
   .information-container {
     margin: 8px auto;
-    height: auto;
-    min-height: 0;
+    height: 90vh;
   }
 
   .information-header h1 {
@@ -72,6 +118,13 @@
   .information-content {
     padding: 8px;
     font-size: 12px;
-    flex: none;
+  }
+
+  .separator {
+    margin: 10px 0;
+  }
+
+  .restaurante-item {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 }
