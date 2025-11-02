@@ -1,12 +1,36 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+// MODULES
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
+import { HttpClient } from '@angular/common/http';
+
+interface Actividad {
+  zona: string;
+  nombre: string;
+  tipo: string;
+  precio: string;
+  url: string;
+}
 
 @Component({
   selector: 'app-actividades',
   standalone: true,
-  imports: [CommonModule, MatCardModule],
+  imports: [CommonModule, MatCardModule, MatIconModule],
   templateUrl: './actividades.component.html',
   styleUrls: ['./actividades.component.scss'],
 })
-export class ActividadesComponent {}
+export class ActividadesComponent implements OnInit
+{
+  actividades: Actividad[] = [];
+
+  constructor(private http: HttpClient) {}
+
+  ngOnInit(): void {
+    this.http
+      .get<Actividad[]>('assets/data/actividades.json')
+      .subscribe((data) => {
+        this.actividades = data;
+      });
+  }
+}

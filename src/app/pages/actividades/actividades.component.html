@@ -1,11 +1,37 @@
 <div class="page-container">
-
   <mat-card class="information-container">
     <div class="information-header">
-      <h1>ACTIVIDADES</h1>
+      <h1>
+        <mat-icon>directions_walk</mat-icon>
+      </h1>
     </div>
 
     <div class="information-content">
+      <div class="restaurante-item" *ngFor="let r of actividades; let last = last">
+        <div class="restaurante-nombre">
+          <a *ngIf="r.url"
+             [href]="r.url"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="enlace">
+            <h2>{{ r.nombre }}</h2>
+          </a>
+          <h2 *ngIf="!r.url">{{ r.nombre }}</h2>
+        </div>
+
+        <div class="restaurante-datos">
+          <div class="dato">
+            <span class="dato-titulo">Zona</span>
+            <span class="dato-valor">{{ r.zona }}</span>
+          </div>
+          <div class="dato">
+            <span class="dato-titulo">Tipo</span>
+            <span class="dato-valor">{{ r.tipo }}</span>
+          </div>
+        </div>
+
+        <hr class="separator" *ngIf="!last" />
+      </div>
     </div>
   </mat-card>
 </div>
