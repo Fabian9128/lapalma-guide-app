@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { MatCardModule } from '@angular/material/card';
+// COMPONENTS
+import { ZonesComponent } from '../../shared/components/zones/zones.component';
 
 @Component({
   selector: 'app-zona-valle',
   standalone: true,
-  imports: [CommonModule, MatCardModule],
-  templateUrl: './zona-valle.component.html',
-  styleUrls: ['./zona-valle.component.scss'],
+  imports: [ZonesComponent],
+  template: `<app-zone zona="Valle"></app-zone>`
 })
 export class ZonaValleComponent {}

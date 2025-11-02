@@ -1,45 +1,15 @@
-export interface Lucha
-{
-  jornada: number;
-  fecha: string;
-  luchada: string;
-  resultado?: string;
-  [key: string]: string | number | undefined;
-}
-
-export interface Player
-{
-  jugador: string;
-  puntos: number;
-  exacto: number;
-  dobles: number;
-}
-
-export interface Partido
-{
-  local: string | null;
-  visitante: string | null;
-  idaLocal?: string;
-  vueltaLocal?: string;
-  idaVisitante?: string;
-  vueltaVisitante?: string;
-}
-
-export interface Luchador
-{
+interface Restaurante {
+  zona: string;
   nombre: string;
-  categoria: string;
+  tipo: string;
+  precio?: string;
+  url?: string;
 }
 
-export interface Equipo
-{
+interface Actividad {
+  zona: string;
   nombre: string;
-  isla: string;
-  logo: string;
-  luchadores: Luchador[];
-}
-
-export interface PlantillasData
-{
-  equipos: Equipo[];
+  tipo: string;
+  precio?: string;
+  url?: string;
 }
