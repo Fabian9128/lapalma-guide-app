@@ -1,10 +1,19 @@
 {
-  "name": "lapalma-guide-app",
-  "short_name": "lapalma-guide-app",
+  "name": "Guía La Palma",
+  "short_name": "Guía La Palma",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
+  "theme_color": "#174E39",
+  "background_color": "#174E39",
+  "orientation": "portrait-primary",
   "icons": [
+    {
+      "src": "assets/images/guia-lapalma-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
     {
       "src": "assets/images/guia-lapalma-icon.png",
       "sizes": "512x512",
