@@ -16,7 +16,6 @@
   padding: 12px;
   border-radius: 12px 12px 0 0;
   text-align: center;
-  flex-shrink: 0;
 }
 
 .information-header h1 {
@@ -36,36 +35,102 @@
 }
 
 .restaurante-item {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+  width: 100%;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.restaurante-item:hover {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.restaurante-nombre {
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.restaurante-nombre a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  padding: 6px 12px;
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.restaurante-nombre a:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-primary);
+  transform: scale(1.03);
+  box-shadow: 0 2px 5px var(--color-primary);
+  text-decoration: none;
+}
+
+.restaurante-nombre mat-icon {
+  font-size: 18px;
+  color: var(--color-primary);
+  vertical-align: middle;
+}
+.restaurante-nombre h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--color-primary);
+}
+
+.restaurante-datos {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr;
-  column-gap: 16px;
-  align-items: center;
-  padding: 8px 0;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  column-gap: 20px;
+  row-gap: 6px;
+  align-items: start;
+  text-align: center;
+  justify-content: space-between;
   width: 100%;
 }
 
-.restaurante-item p {
-  margin: 4px 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.dato {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
-.restaurante-item a {
+.dato-titulo {
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.dato-valor {
+  font-size: 14px;
+  color: #333;
+  word-break: break-word;
+}
+
+.enlace {
   color: var(--color-primary);
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.15s ease;
 }
 
-.restaurante-item a:hover {
+.enlace:hover {
   text-decoration: underline;
+  color: #1a73e8;
 }
 
 .separator {
   border: none;
   border-top: 1px solid #ddd;
-  margin: 12px 0;
-  grid-column: 1 / -1;
+  margin: 12px 0 6px 0;
 }
 
 .information-header mat-icon {
@@ -90,18 +155,14 @@
     font-size: 13px;
   }
 
-  .restaurante-item {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-    gap: 8px 16px;
-    align-items: start;
-    word-wrap: break-word;
+  .restaurante-datos {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    column-gap: 12px;
+    row-gap: 4px;
   }
 
-  .restaurante-item p {
-    white-space: normal;
-    overflow: visible;
-    text-overflow: unset;
+  .restaurante-nombre h2 {
+    font-size: 1.1rem;
   }
 }
 
@@ -111,20 +172,25 @@
     height: 90vh;
   }
 
-  .information-header h1 {
-    font-size: 1.1rem;
-  }
-
   .information-content {
     padding: 8px;
     font-size: 12px;
   }
 
   .separator {
-    margin: 10px 0;
+    margin: 8px 0;
   }
 
-  .restaurante-item {
+  .restaurante-datos {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    column-gap: 8px;
+  }
+
+  .dato-titulo {
+    font-size: 11px;
+  }
+
+  .dato-valor {
+    font-size: 12px;
   }
 }
