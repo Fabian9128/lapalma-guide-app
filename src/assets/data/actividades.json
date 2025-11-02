@@ -3,108 +3,348 @@
     "zona": "Noreste",
     "nombre": "Playa de Nogales",
     "tipo": "Playa",
-    "url": ""
+    "url": "https://maps.app.goo.gl/S7WdiZ6trVrJ9zoZA"
   },
   {
     "zona": "Noreste",
     "nombre": "Puerto Paja",
     "tipo": "Piscina natural",
-    "url": ""
+    "url": "https://maps.app.goo.gl/9f1dDNd3ees5NEWp8"
   },
   {
     "zona": "Noreste",
     "nombre": "Fuente de San Juan",
-    "tipo": "Fuente histórica",
-    "url": ""
+    "tipo": "Fuente",
+    "url": "https://maps.app.goo.gl/P3bELSYaXjLpgFaaA"
   },
   {
     "zona": "Noreste",
     "nombre": "Mirador de San Bartolo",
     "tipo": "Mirador",
-    "url": ""
+    "url": "https://maps.app.goo.gl/GXWwLWJMtRpYVCaa9"
   },
   {
     "zona": "Noreste",
     "nombre": "Cubo de La Galga",
     "tipo": "Sendero",
-    "url": ""
+    "url": "https://maps.app.goo.gl/wQof4uKXHz6DKDxW6"
   },
   {
     "zona": "Noreste",
     "nombre": "El Tendal",
     "tipo": "Parque arqueológico",
-    "url": ""
+    "url": "https://maps.app.goo.gl/4RfPFSmcwamvHJ3XA"
   },
   {
     "zona": "Noreste",
     "nombre": "Los Tilos",
-    "tipo": "Senderos y cascadas",
-    "url": ""
+    "tipo": "Sendero",
+    "url": "https://maps.app.goo.gl/kWAKyVUvwEeD9QpM8"
   },
   {
     "zona": "Noreste",
     "nombre": "Marcos y Cordero",
-    "tipo": "Ruta larga con cascadas",
-    "url": ""
+    "tipo": "Ruta",
+    "url": "https://maps.app.goo.gl/G424t6jLPpCsCTep9"
   },
   {
     "zona": "Noreste",
     "nombre": "Charco Azul",
     "tipo": "Piscinas naturales",
-    "url": ""
+    "url": "https://maps.app.goo.gl/HWY5KFUnkPHzsPuq7"
   },
   {
     "zona": "Noreste",
     "nombre": "San Andrés",
-    "tipo": "Pueblo costero",
-    "url": ""
+    "tipo": "Pueblo",
+    "url": "https://maps.app.goo.gl/Yr2hfzanyKtP3azU8"
   },
   {
     "zona": "Noreste",
     "nombre": "Puerto Espíndola",
     "tipo": "Playa",
-    "url": ""
+    "url": "https://maps.app.goo.gl/XQPqWYEQnUSvMSyv5"
   },
   {
     "zona": "Noreste",
     "nombre": "Faro de Punta Cumplida",
-    "tipo": "Faro/hotel",
-    "url": ""
+    "tipo": "Faro",
+    "url": "https://maps.app.goo.gl/XRp8Cygmo7YstWmD9"
   },
   {
     "zona": "Noreste",
     "nombre": "La Fajana",
     "tipo": "Piscinas naturales",
-    "url": ""
+    "url": "https://maps.app.goo.gl/nDLFGqaB1T6WMkGz6"
   },
   {
     "zona": "Noreste",
     "nombre": "Laguna de Barlovento",
     "tipo": "Área recreativa",
-    "url": ""
+    "url": "https://maps.app.goo.gl/6mxGVzMe4KdCdn9p8"
   },
   {
     "zona": "Noreste",
     "nombre": "Carretera de las Mimbreras",
-    "tipo": "Carretera panorámica",
-    "url": ""
+    "tipo": "Carretera escénica",
+    "url": "https://maps.app.goo.gl/Rh4AQ9pADCsec5mv6"
   },
   {
     "zona": "Este",
     "nombre": "Santa Cruz de La Palma",
     "tipo": "Ciudad",
-    "url": ""
+    "url": "https://maps.app.goo.gl/3eQoPe1aCJsjupG57"
   },
   {
     "zona": "Este",
     "nombre": "Nuestra Señora de Las Nieves",
     "tipo": "Ermita",
-    "url": ""
+    "url": "https://maps.app.goo.gl/ZSDTEpb6Ci1R8LGy5"
   },
   {
     "zona": "Este",
     "nombre": "Los Cancajos",
     "tipo": "Playa",
-    "url": ""
+    "url": "https://maps.app.goo.gl/RcFn1SctTeaK1xCU7"
+  },
+  {
+    "zona": "Este",
+    "nombre": "Risco de la Concepción",
+    "tipo": "Mirador",
+    "url": "https://maps.app.goo.gl/djkAGVFdMiPzCYLG7"
+  },
+  {
+    "zona": "Este",
+    "nombre": "Playa de Bajamar",
+    "tipo": "Playa",
+    "url": "https://maps.app.goo.gl/DXqRtBYKZJcD4iCN7"
+  },
+  {
+    "zona": "Este",
+    "nombre": "Montaña de la Breña",
+    "tipo": "Mirador",
+    "url": "https://maps.app.goo.gl/Ju3cgUpc1Mj5Pj437"
+  },
+  {
+    "zona": "Este",
+    "nombre": "Ruta de las Fuentes",
+    "tipo": "Ruta",
+    "url": "https://maps.app.goo.gl/gD2zXqb6C5otT9BE8"
+  },
+  {
+    "zona": "Este",
+    "nombre": "Pared Vieja",
+    "tipo": "Área recreativa",
+    "url": "https://maps.app.goo.gl/CVAbASpoGWT7R7q87"
+  },
+  {
+    "zona": "Este",
+    "nombre": "Charcas del Aeropuerto",
+    "tipo": "Piscinas naturales",
+    "url": "https://maps.app.goo.gl/DDxAwx5cotTrzhJdA"
+  },
+  {
+    "zona": "Este",
+    "nombre": "Belmaco",
+    "tipo": "Parque arqueológico",
+    "url": "https://maps.app.goo.gl/LaXEH1SxrvRh9sAf8"
+  },
+  {
+    "zona": "Este",
+    "nombre": "Mirador Las Toscas",
+    "tipo": "Mirador",
+    "url": "https://maps.app.goo.gl/yKoCZBHkm7Vwkpuy6"
+  },
+  {
+    "zona": "Sur",
+    "nombre": "Faro de Fuencaliente",
+    "tipo": "Faro",
+    "url": "https://maps.app.goo.gl/rG6ym1fDMuhPsfDR9"
+  },
+  {
+    "zona": "Sur",
+    "nombre": "Los Canarios",
+    "tipo": "Pueblo",
+    "url": "https://maps.app.goo.gl/G6KQMk16xyEewJpGA"
+  },
+  {
+    "zona": "Sur",
+    "nombre": "Volcán de San Antonio",
+    "tipo": "Volcán",
+    "url": "https://maps.app.goo.gl/RG29kVoErY3DezZd9"
+  },
+  {
+    "zona": "Sur",
+    "nombre": "Playa de Echentive",
+    "tipo": "Playa",
+    "url": "https://maps.app.goo.gl/aQtnoWi4uVsEKP1K8"
+  },
+  {
+    "zona": "Sur",
+    "nombre": "Punta Larga",
+    "tipo": "Playa",
+    "url": "https://maps.app.goo.gl/JyPqdz1ZhpPocSEV8"
+  },
+  {
+    "zona": "Sur",
+    "nombre": "La Zamora",
+    "tipo": "Playa",
+    "url": "https://maps.app.goo.gl/x4AzUAnz1b1v7Haf9"
+  },
+  {
+    "zona": "Sur",
+    "nombre": "El Remo",
+    "tipo": "Playa",
+    "url": "https://maps.app.goo.gl/CZN6dLxzJCYvc76s9"
+  },
+  {
+    "zona": "Sur",
+    "nombre": "Charco Verde",
+    "tipo": "Playa",
+    "url": "https://maps.app.goo.gl/GWiPpW94aio8AeYk9"
+  },
+  {
+    "zona": "Sur",
+    "nombre": "Puerto Naos",
+    "tipo": "Playa",
+    "url": "https://maps.app.goo.gl/B5FfW9EQ64wVUnsd7"
+  },
+  {
+    "zona": "Sur",
+    "nombre": "Plaza La Glorieta",
+    "tipo": "Plaza",
+    "url": "https://maps.app.goo.gl/dEQLuJS8yyG98zHY6"
+  },
+  {
+    "zona": "Sur",
+    "nombre": "La Bombilla",
+    "tipo": "Pueblo",
+    "url": "https://maps.app.goo.gl/yHo6DNTjqWbPSgc27"
+  },
+  {
+    "zona": "Sur",
+    "nombre": "Caños de Fuego",
+    "tipo": "Tubo volcánico",
+    "url": "https://maps.app.goo.gl/JN2MtkjYj9hBsrui6"
+  },
+  {
+    "zona": "Centro/Oeste",
+    "nombre": "Refugio del Pilar",
+    "tipo": "Área recreativa",
+    "url": "https://maps.app.goo.gl/jVBqoqPuLzdwKesn6"
+  },
+  {
+    "zona": "Centro/Oeste",
+    "nombre": "Mirador de La Cumbrecita",
+    "tipo": "Mirador",
+    "url": "https://maps.app.goo.gl/YeAEGArkEyNbAZFCA"
+  },
+  {
+    "zona": "Centro/Oeste",
+    "nombre": "Llano del Jable",
+    "tipo": "Mirador",
+    "url": "https://maps.app.goo.gl/ujZjnZrWZd2AN68X6"
+  },
+  {
+    "zona": "Centro/Oeste",
+    "nombre": "Volcán Tajogaite",
+    "tipo": "Volcán",
+    "url": "https://maps.app.goo.gl/7DqQnzioLPs8HuZv6"
+  },
+  {
+    "zona": "Centro/Oeste",
+    "nombre": "Los Llanos de Aridane",
+    "tipo": "Ciudad",
+    "url": "https://maps.app.goo.gl/GP4qLhnViT1vTd39A"
+  },
+  {
+    "zona": "Centro/Oeste",
+    "nombre": "Tazacorte",
+    "tipo": "Pueblo",
+    "url": "https://maps.app.goo.gl/RFapcqwA72kMVLBaA"
+  },
+  {
+    "zona": "Centro/Oeste",
+    "nombre": "Fancy Boat",
+    "tipo": "Excursión en barco",
+    "url": "https://maps.app.goo.gl/DJVQYRRgRQ7ix5Ht6"
+  },
+  {
+    "zona": "Centro/Oeste",
+    "nombre": "Caldera de Taburiente",
+    "tipo": "Ruta",
+    "url": "https://maps.app.goo.gl/29MVWtkXuf1X74vN7"
+  },
+  {
+    "zona": "Noroeste",
+    "nombre": "Mirador de El Time",
+    "tipo": "Mirador",
+    "url": "https://maps.app.goo.gl/qHtbarNmvEuQKY9x9"
+  },
+  {
+    "zona": "Noroeste",
+    "nombre": "Porís de Candelaria",
+    "tipo": "Piscina natural",
+    "url": "https://maps.app.goo.gl/3AmTeZKDCTZ9RtZs7"
+  },
+  {
+    "zona": "Noroeste",
+    "nombre": "Playa de La Veta",
+    "tipo": "Playa",
+    "url": "https://maps.app.goo.gl/tqoPY7WzzPGjr69N8"
+  },
+  {
+    "zona": "Noroeste",
+    "nombre": "Puerto de Puntagorda",
+    "tipo": "Zona de baño",
+    "url": "https://maps.app.goo.gl/tjEyoRZ6Zwd4Afja7"
+  },
+  {
+    "zona": "Noroeste",
+    "nombre": "Mirador de Izcagua",
+    "tipo": "Mirador",
+    "url": "https://maps.app.goo.gl/WxXrWShwLiemxSmc9"
+  },
+  {
+    "zona": "Noroeste",
+    "nombre": "Mercado de Puntagorda",
+    "tipo": "Mercado",
+    "url": "https://maps.app.goo.gl/TjnnTU5GAuq3KNf99"
+  },
+  {
+    "zona": "Noroeste",
+    "nombre": "Las Tricias",
+    "tipo": "Pueblo",
+    "url": "https://maps.app.goo.gl/hBDhKXAeBo1nh6Zk6"
+  },
+  {
+    "zona": "Noroeste",
+    "nombre": "Santo Domingo",
+    "tipo": "Pueblo",
+    "url": "https://maps.app.goo.gl/PASPDB1mhd98zKsS9"
+  },
+  {
+    "zona": "Noroeste",
+    "nombre": "Playa de Bujarén",
+    "tipo": "Playa",
+    "url": "https://maps.app.goo.gl/FsnzSgz1Ra6AECoV8"
+  },
+  {
+    "zona": "Noroeste",
+    "nombre": "La Zarza",
+    "tipo": "Parque arqueológico",
+    "url": "https://maps.app.goo.gl/azDzgHHJ4tUdj8F37"
+  },
+  {
+    "zona": "Noroeste",
+    "nombre": "Centro de Visitantes del Observatorio",
+    "tipo": "Museo",
+    "url": "https://maps.app.goo.gl/e9TeHRaZBZStw2XC8"
+  },
+  {
+    "zona": "Noroeste",
+    "nombre": "Roque de los Muchachos",
+    "tipo": "Mirador",
+    "url": "https://maps.app.goo.gl/cE2Q7hnQt1nQAEnK7"
   }
 ]

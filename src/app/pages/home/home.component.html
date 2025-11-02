@@ -7,6 +7,26 @@
 
   <div class="main-container">
     <ng-container *ngIf="isHome">
+
+      <div class="map-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="150 10 100 140" class="isla-svg">
+          <ng-container *ngFor="let zone of zones">
+            <g
+              class="zona"
+              [attr.title]="zone.zona"
+              (click)="goTo('zona-' + zone.zona.toLowerCase())"
+            >
+              <path
+                [attr.d]="zone.path"
+                [attr.fill]="zone.color"
+                stroke="#000"
+                stroke-width="0.3"
+              />
+            </g>
+          </ng-container>
+        </svg>
+      </div>
+
       <div class="home-buttons-wrapper">
         <div class="home-buttons-container">
           <div class="home-button" (click)="goTo('actividades')">
