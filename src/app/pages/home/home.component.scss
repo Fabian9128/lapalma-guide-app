@@ -3,10 +3,6 @@
   height: 100%;
 }
 
-.home-sidenav {
-  padding: 30px 40px 30px 20px;
-}
-
 .main-container {
   position: relative;
   width: 100%;
@@ -35,9 +31,7 @@
   max-width: 340px;
   position: relative;
   z-index: 2;
-  margin: 0 auto;
-  margin-top: 3vh;
-  margin-bottom: 2vh;
+  margin: 3vh auto 2vh;
 
   .isla-svg {
     width: 100%;
@@ -55,8 +49,10 @@
     fill: var(--color-primary);
   }
 
-  .zona:hover path {
-    fill: var(--color-secondary);
+  @media (hover: hover) and (pointer: fine) {
+    .zona:hover path {
+      fill: var(--color-secondary);
+    }
   }
 }
 
@@ -129,10 +125,6 @@
   .home-label {
     font-size: 1rem;
   }
-
-  .home-sidenav {
-    padding: 20px 20px 20px 10px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -150,5 +142,28 @@
 
   .home-label {
     font-size: 0.9rem;
+  }
+}
+
+@media (hover: none), (pointer: coarse), (max-width: 768px) {
+  ::ng-deep .zona[data-zona="noreste"] path {
+    fill: #174E39 !important;
+  }
+  ::ng-deep .zona[data-zona="este"] path {
+    fill: #226B4C !important;
+  }
+  ::ng-deep .zona[data-zona="sur"] path {
+    fill: #2E8B57 !important;
+  }
+  ::ng-deep .zona[data-zona="valle"] path {
+    fill: #3FA572 !important;
+  }
+  ::ng-deep .zona[data-zona="noroeste"] path {
+    fill: #66BB6A !important;
+  }
+
+  ::ng-deep .zona:active path {
+    filter: brightness(1.15);
+    transition: filter 0.2s ease;
   }
 }

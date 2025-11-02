@@ -8,7 +8,6 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { RouterModule } from '@angular/router';
 // COMPONENTS
 import { HeaderComponent } from '../../shared/components/header/header.component';
-import { MenuComponent } from '../../shared/components/menu/menu.component';
 
 @Component({
   selector: 'app-home',
@@ -18,7 +17,6 @@ import { MenuComponent } from '../../shared/components/menu/menu.component';
     RouterModule,
     MatSidenavModule,
     HeaderComponent,
-    MenuComponent
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']

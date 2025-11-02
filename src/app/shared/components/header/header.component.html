@@ -1,12 +1,18 @@
-<mat-toolbar color="primary" id="header">
-  <button type="button" mat-icon-button class="menu-button"
-          (click)="isHome ? toggleMenu() : goHome()">
-    <mat-icon>{{ isHome ? 'menu' : 'home' }}</mat-icon>
+<mat-toolbar color="primary" id="header" [class.is-home]="isHome">
+
+  <button *ngIf="!isHome"
+          type="button"
+          mat-icon-button
+          class="menu-button"
+          (click)="goHome()">
+    <mat-icon>home</mat-icon>
   </button>
 
   <span class="maq-app-title">
-    {{ pageTitle }}
-    <img *ngIf="isHome" src="assets/images/guia-lapalma-icon.png"
-         alt="icono" class="title-icon">
+    <img *ngIf="isHome"
+         src="assets/images/guia-lapalma-logo.jpeg"
+         alt="icono"
+         class="title-icon">
+    <span *ngIf="!isHome">{{ pageTitle }}</span>
   </span>
 </mat-toolbar>
