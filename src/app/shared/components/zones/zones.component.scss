@@ -1,19 +1,38 @@
+.information-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 8px;
+  row-gap: 8px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+@media (max-width: 768px) {
+  .information-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 38vh;
+  }
+}
+
 .information-container {
   width: 100%;
-  margin: 16px auto;
+  margin: 0;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  max-height: 37vh;
+  max-height: 88vh;
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  padding-bottom: 0px;
 }
 
 .information-header {
   background-color: var(--color-primary);
   color: var(--color-secondary);
-  padding: 12px;
+  padding: 4px;
   border-radius: 12px 12px 0 0;
   text-align: center;
 }
@@ -23,10 +42,21 @@
   font-size: 20px;
 }
 
+.information-header mat-icon {
+  color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
+  border-radius: 50%;
+  padding: 1px;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .information-content {
   flex: 1;
-  padding: 16px;
-  font-size: 14px;
+  padding: 8px;
+  font-size: 13px;
   color: #333;
   line-height: 1.6;
   overflow-y: auto;
@@ -37,7 +67,7 @@
 .restaurante-item {
   display: flex;
   flex-direction: column;
-  padding: 16px 0;
+  padding: 1px 0;
   width: 100%;
   border-radius: 8px;
   transition: background 0.2s ease;
@@ -49,7 +79,7 @@
 
 .restaurante-nombre {
   text-align: center;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .restaurante-nombre a {
@@ -66,11 +96,8 @@
 }
 
 .restaurante-nombre a:hover {
-  background-color: var(--color-secondary);
-  border-color: var(--color-primary);
   transform: scale(1.03);
   box-shadow: 0 2px 5px var(--color-primary);
-  text-decoration: none;
 }
 
 .restaurante-nombre mat-icon {
@@ -78,8 +105,9 @@
   color: var(--color-primary);
   vertical-align: middle;
 }
+
 .restaurante-nombre h2 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   margin: 0;
   color: var(--color-primary);
@@ -87,9 +115,9 @@
 
 .restaurante-datos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  column-gap: 20px;
-  row-gap: 6px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  column-gap: 12px;
+  row-gap: 4px;
   align-items: start;
   text-align: center;
   justify-content: space-between;
@@ -103,82 +131,28 @@
 }
 
 .dato-titulo {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 600;
   color: #666;
   text-transform: uppercase;
 }
 
 .dato-valor {
-  font-size: 14px;
+  font-size: 12px;
   color: #333;
   word-break: break-word;
-}
-
-.enlace {
-  color: var(--color-primary);
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.15s ease;
-}
-
-.enlace:hover {
-  text-decoration: underline;
-  color: #1a73e8;
 }
 
 .separator {
   border: none;
   border-top: 1px solid #ddd;
-  margin: 12px 0 6px 0;
-}
-
-.information-header mat-icon {
-  color: var(--color-secondary);
-  border: 2px solid var(--color-secondary);
-  border-radius: 50%;
-  padding: 8px;
-  font-size: 32px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@media (max-width: 768px) {
-  .information-container {
-    height: 90vh;
-    margin: 12px auto;
-  }
-
-  .information-content {
-    padding: 12px;
-    font-size: 13px;
-  }
-
-  .restaurante-datos {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    column-gap: 12px;
-    row-gap: 4px;
-  }
-
-  .restaurante-nombre h2 {
-    font-size: 1.1rem;
-  }
+  margin: 8px 0 4px 0;
 }
 
 @media (max-width: 480px) {
   .information-container {
-    margin: 8px auto;
-    height: 90vh;
-  }
-
-  .information-content {
-    padding: 8px;
-    font-size: 12px;
-  }
-
-  .separator {
-    margin: 8px 0;
+    max-height: 90vh;
+    min-height: 44vh
   }
 
   .restaurante-datos {
