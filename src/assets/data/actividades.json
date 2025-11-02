@@ -144,13 +144,13 @@
     "url": "https://maps.app.goo.gl/DDxAwx5cotTrzhJdA"
   },
   {
-    "zona": "Este",
+    "zona": "Sur",
     "nombre": "Belmaco",
     "tipo": "Parque arqueológico",
     "url": "https://maps.app.goo.gl/LaXEH1SxrvRh9sAf8"
   },
   {
-    "zona": "Este",
+    "zona": "Sur",
     "nombre": "Mirador Las Toscas",
     "tipo": "Mirador",
     "url": "https://maps.app.goo.gl/yKoCZBHkm7Vwkpuy6"
@@ -192,37 +192,37 @@
     "url": "https://maps.app.goo.gl/x4AzUAnz1b1v7Haf9"
   },
   {
-    "zona": "Sur",
+    "zona": "Valle",
     "nombre": "El Remo",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/CZN6dLxzJCYvc76s9"
   },
   {
-    "zona": "Sur",
+    "zona": "Valle",
     "nombre": "Charco Verde",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/GWiPpW94aio8AeYk9"
   },
   {
-    "zona": "Sur",
+    "zona": "Valle",
     "nombre": "Puerto Naos",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/B5FfW9EQ64wVUnsd7"
   },
   {
-    "zona": "Sur",
+    "zona": "Valle",
     "nombre": "Plaza La Glorieta",
     "tipo": "Plaza",
     "url": "https://maps.app.goo.gl/dEQLuJS8yyG98zHY6"
   },
   {
-    "zona": "Sur",
+    "zona": "Valle",
     "nombre": "La Bombilla",
     "tipo": "Pueblo",
     "url": "https://maps.app.goo.gl/yHo6DNTjqWbPSgc27"
   },
   {
-    "zona": "Sur",
+    "zona": "Valle",
     "nombre": "Caños de Fuego",
     "tipo": "Tubo volcánico",
     "url": "https://maps.app.goo.gl/JN2MtkjYj9hBsrui6"
