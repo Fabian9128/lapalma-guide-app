@@ -1,5 +1,7 @@
-import { Component, inject } from '@angular/core';
+import { Component, OnInit, inject, Input } from '@angular/core';
 import { Router } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
+import { MatDrawer } from '@angular/material/sidenav';
 // MODULES
 import { CommonModule } from '@angular/common';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -21,12 +23,24 @@ import { MenuComponent } from '../../shared/components/menu/menu.component';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent
+export class HomeComponent implements OnInit
 {
-  router = inject(Router);
+  @Input() drawer: MatDrawer | null = null;
 
-  goTo(section: string) {
+  router = inject(Router);
+  http = inject(HttpClient);
+
+  zones: Zones[] = [];
+
+  ngOnInit(): void {
+    this.http.get<{ zones: Zones[] }>('assets/data/coordenadas.json').subscribe((data) => {
+      this.zones = data.zones;
+    });
+  }
+
+  goTo(section: string): void {
     this.router.navigate([`/${section}`]);
+    this.drawer?.close();
   }
 
   get isHome(): boolean {

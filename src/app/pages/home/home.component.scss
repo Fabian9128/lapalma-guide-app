@@ -13,30 +13,66 @@
   height: calc(100vh - 64px);
   box-sizing: border-box;
   overflow: hidden;
-
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  color: var(--color-secondary);
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url("/assets/images/arena.avif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   image-rendering: auto;
-  color: var(--color-secondary);
+}
 
-  display: block;
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  max-width: 340px;
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+
+  .isla-svg {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+    fill: var(--color-primary);
+    stroke: #333;
+    stroke-width: 0.5;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+  }
+
+  .zona path {
+    transition: fill 0.3s ease;
+    fill: var(--color-primary);
+  }
+
+  .zona:hover path {
+    fill: var(--color-secondary);
+  }
 }
 
 .home-buttons-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100%;
+  align-items: flex-start;
+  flex-grow: 1;
+  width: 100%;
+  position: relative;
+  z-index: 2;
 }
 
 .home-buttons-container {
   display: flex;
-  gap: 40px;
+  gap: 25px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -50,38 +86,44 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  transition: transform 0.2s ease, filter 0.2s ease;
+  transition: filter 0.2s ease;
 
   img {
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
     object-fit: contain;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
   &:hover {
-    transform: scale(1.05);
     filter: brightness(1.1);
   }
 }
 
 .home-label {
-  margin-bottom: 8px;
-  font-size: 1.1rem;
+  margin-bottom: 6px;
+  font-size: 1.05rem;
   font-weight: 600;
   color: var(--color-secondary);
 }
 
 @media (max-width: 768px) {
+  .map-container {
+    width: 70%;
+    max-width: 300px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
   .home-buttons-container {
     flex-direction: column;
-    gap: 24px;
+    gap: 20px;
   }
 
   .home-button img {
-    width: 120px;
-    height: 120px;
+    width: 95px;
+    height: 95px;
   }
 
   .home-label {
@@ -94,12 +136,19 @@
 }
 
 @media (max-width: 480px) {
+  .map-container {
+    width: 85%;
+    max-width: 260px;
+    margin-top: 2vh;
+    margin-bottom: 1.5vh;
+  }
+
   .home-button img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
 
   .home-label {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 }

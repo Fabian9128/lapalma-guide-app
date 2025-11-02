@@ -13,3 +13,9 @@ interface Actividad {
   precio?: string;
   url?: string;
 }
+
+interface Zones {
+  zona: string;
+  color: string;
+  path: string;
+}
