@@ -1,10 +1,6 @@
 <mat-drawer-container class="home-container" [hasBackdrop]="true" autosize mode="side">
   <app-header [drawer]="drawer"></app-header>
 
-  <mat-drawer #drawer class="home-sidenav">
-    <app-menu [drawer]="drawer"></app-menu>
-  </mat-drawer>
-
   <div class="main-container">
     <ng-container *ngIf="isHome">
 
@@ -13,6 +9,7 @@
           <ng-container *ngFor="let zone of zones">
             <g
               class="zona"
+              [attr.data-zona]="zone.zona.toLowerCase()"
               [attr.title]="zone.zona"
               (click)="goTo('zona-' + zone.zona.toLowerCase())"
             >
