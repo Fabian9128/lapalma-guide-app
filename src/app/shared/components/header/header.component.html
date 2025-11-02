@@ -9,10 +9,8 @@
   </button>
 
   <span class="maq-app-title">
-    <img *ngIf="isHome"
-         src="assets/images/guia-lapalma-logo.jpeg"
-         alt="icono"
-         class="title-icon">
+    <span *ngIf="isHome">GUÍA LA PALMA</span>
     <span *ngIf="!isHome">{{ pageTitle }}</span>
   </span>
+
 </mat-toolbar>
