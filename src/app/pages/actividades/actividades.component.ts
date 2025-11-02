@@ -5,14 +5,6 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { HttpClient } from '@angular/common/http';
 
-interface Actividad {
-  zona: string;
-  nombre: string;
-  tipo: string;
-  precio: string;
-  url: string;
-}
-
 @Component({
   selector: 'app-actividades',
   standalone: true,
