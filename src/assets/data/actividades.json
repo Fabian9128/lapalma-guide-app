@@ -3,348 +3,522 @@
     "zona": "Noreste",
     "nombre": "Playa de Nogales",
     "tipo": "Playa",
-    "url": "https://maps.app.goo.gl/S7WdiZ6trVrJ9zoZA"
+    "url": "https://maps.app.goo.gl/S7WdiZ6trVrJ9zoZA",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/nogales.webp",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "Puerto Paja",
     "tipo": "Piscina natural",
-    "url": "https://maps.app.goo.gl/9f1dDNd3ees5NEWp8"
+    "url": "https://maps.app.goo.gl/9f1dDNd3ees5NEWp8",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/puertopaja.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "Fuente de San Juan",
     "tipo": "Fuente",
-    "url": "https://maps.app.goo.gl/P3bELSYaXjLpgFaaA"
+    "url": "https://maps.app.goo.gl/P3bELSYaXjLpgFaaA",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/fuentesanjuan.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "Mirador de San Bartolo",
     "tipo": "Mirador",
-    "url": "https://maps.app.goo.gl/GXWwLWJMtRpYVCaa9"
+    "url": "https://maps.app.goo.gl/GXWwLWJMtRpYVCaa9",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/sanbartolo.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "Cubo de La Galga",
     "tipo": "Sendero",
-    "url": "https://maps.app.goo.gl/wQof4uKXHz6DKDxW6"
+    "url": "https://maps.app.goo.gl/wQof4uKXHz6DKDxW6",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/cubogalga.jpg",
+    "imprescindible": true
   },
   {
     "zona": "Noreste",
     "nombre": "El Tendal",
     "tipo": "Parque arqueológico",
-    "url": "https://maps.app.goo.gl/4RfPFSmcwamvHJ3XA"
+    "url": "https://maps.app.goo.gl/4RfPFSmcwamvHJ3XA",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/tendal.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "Los Tilos",
     "tipo": "Sendero",
-    "url": "https://maps.app.goo.gl/kWAKyVUvwEeD9QpM8"
+    "url": "https://maps.app.goo.gl/kWAKyVUvwEeD9QpM8",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/tilos.jpg",
+    "imprescindible": true
   },
   {
     "zona": "Noreste",
     "nombre": "Marcos y Cordero",
-    "tipo": "Ruta",
-    "url": "https://maps.app.goo.gl/G424t6jLPpCsCTep9"
+    "tipo": "Sendero",
+    "url": "https://maps.app.goo.gl/G424t6jLPpCsCTep9",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/marcoscordero.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "Charco Azul",
     "tipo": "Piscinas naturales",
-    "url": "https://maps.app.goo.gl/HWY5KFUnkPHzsPuq7"
+    "url": "https://maps.app.goo.gl/HWY5KFUnkPHzsPuq7",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/charcoazul.jpg",
+    "imprescindible": true
   },
   {
     "zona": "Noreste",
     "nombre": "San Andrés",
     "tipo": "Pueblo",
-    "url": "https://maps.app.goo.gl/Yr2hfzanyKtP3azU8"
+    "url": "https://maps.app.goo.gl/Yr2hfzanyKtP3azU8",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/sanandres.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "Puerto Espíndola",
     "tipo": "Playa",
-    "url": "https://maps.app.goo.gl/XQPqWYEQnUSvMSyv5"
+    "url": "https://maps.app.goo.gl/XQPqWYEQnUSvMSyv5",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/espindola.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "Faro de Punta Cumplida",
     "tipo": "Faro",
-    "url": "https://maps.app.goo.gl/XRp8Cygmo7YstWmD9"
+    "url": "https://maps.app.goo.gl/XRp8Cygmo7YstWmD9",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/puntacumplida.webp",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "La Fajana",
     "tipo": "Piscinas naturales",
-    "url": "https://maps.app.goo.gl/nDLFGqaB1T6WMkGz6"
+    "url": "https://maps.app.goo.gl/nDLFGqaB1T6WMkGz6",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/lafajana.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "Laguna de Barlovento",
     "tipo": "Área recreativa",
-    "url": "https://maps.app.goo.gl/6mxGVzMe4KdCdn9p8"
+    "url": "https://maps.app.goo.gl/6mxGVzMe4KdCdn9p8",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/laguna.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
-    "nombre": "Carretera de las Mimbreras",
-    "tipo": "Carretera escénica",
-    "url": "https://maps.app.goo.gl/Rh4AQ9pADCsec5mv6"
+    "nombre": "Las Mimbreras",
+    "tipo": "Carretera pintoresca",
+    "url": "https://maps.app.goo.gl/Rh4AQ9pADCsec5mv6",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/mimbreras.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Santa Cruz de La Palma",
-    "tipo": "Ciudad",
-    "url": "https://maps.app.goo.gl/3eQoPe1aCJsjupG57"
+    "tipo": "Capital",
+    "url": "https://maps.app.goo.gl/3eQoPe1aCJsjupG57",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/scpalma.jpg",
+    "imprescindible": true
   },
   {
     "zona": "Este",
-    "nombre": "Nuestra Señora de Las Nieves",
+    "nombre": "Las Nieves",
     "tipo": "Ermita",
-    "url": "https://maps.app.goo.gl/ZSDTEpb6Ci1R8LGy5"
+    "url": "https://maps.app.goo.gl/ZSDTEpb6Ci1R8LGy5",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/lasnieves.jpg",
+    "imprescindible": true
   },
   {
     "zona": "Este",
     "nombre": "Los Cancajos",
     "tipo": "Playa",
-    "url": "https://maps.app.goo.gl/RcFn1SctTeaK1xCU7"
+    "url": "https://maps.app.goo.gl/RcFn1SctTeaK1xCU7",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/cancajos.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Risco de la Concepción",
     "tipo": "Mirador",
-    "url": "https://maps.app.goo.gl/djkAGVFdMiPzCYLG7"
+    "url": "https://maps.app.goo.gl/djkAGVFdMiPzCYLG7",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/concepcion.jpg",
+    "imprescindible": true
   },
   {
     "zona": "Este",
     "nombre": "Playa de Bajamar",
     "tipo": "Playa",
-    "url": "https://maps.app.goo.gl/DXqRtBYKZJcD4iCN7"
+    "url": "https://maps.app.goo.gl/DXqRtBYKZJcD4iCN7",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/bajamar.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Montaña de la Breña",
     "tipo": "Mirador",
-    "url": "https://maps.app.goo.gl/Ju3cgUpc1Mj5Pj437"
+    "url": "https://maps.app.goo.gl/Ju3cgUpc1Mj5Pj437",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/montanabrena.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Ruta de las Fuentes",
-    "tipo": "Ruta",
-    "url": "https://maps.app.goo.gl/gD2zXqb6C5otT9BE8"
+    "tipo": "Sendero",
+    "url": "https://maps.app.goo.gl/gD2zXqb6C5otT9BE8",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/fuentes.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Pared Vieja",
     "tipo": "Área recreativa",
-    "url": "https://maps.app.goo.gl/CVAbASpoGWT7R7q87"
+    "url": "https://maps.app.goo.gl/CVAbASpoGWT7R7q87",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/paredvieja.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Charcas del Aeropuerto",
     "tipo": "Piscinas naturales",
-    "url": "https://maps.app.goo.gl/DDxAwx5cotTrzhJdA"
+    "url": "https://maps.app.goo.gl/DDxAwx5cotTrzhJdA",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/charcasaeropuerto.jpg",
+    "imprescindible": false
   },
   {
-    "zona": "Sur",
+    "zona": "Este",
     "nombre": "Belmaco",
     "tipo": "Parque arqueológico",
-    "url": "https://maps.app.goo.gl/LaXEH1SxrvRh9sAf8"
+    "url": "https://maps.app.goo.gl/LaXEH1SxrvRh9sAf8",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/belmaco.jpg",
+    "imprescindible": false
   },
   {
-    "zona": "Sur",
+    "zona": "Este",
     "nombre": "Mirador Las Toscas",
     "tipo": "Mirador",
-    "url": "https://maps.app.goo.gl/yKoCZBHkm7Vwkpuy6"
+    "url": "https://maps.app.goo.gl/yKoCZBHkm7Vwkpuy6",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/lastoscas.webp",
+    "imprescindible": false
   },
   {
     "zona": "Sur",
     "nombre": "Faro de Fuencaliente",
     "tipo": "Faro",
-    "url": "https://maps.app.goo.gl/rG6ym1fDMuhPsfDR9"
+    "url": "https://maps.app.goo.gl/rG6ym1fDMuhPsfDR9",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/farofuencaliente.webp",
+    "imprescindible": true
   },
   {
     "zona": "Sur",
     "nombre": "Los Canarios",
     "tipo": "Pueblo",
-    "url": "https://maps.app.goo.gl/G6KQMk16xyEewJpGA"
+    "url": "https://maps.app.goo.gl/G6KQMk16xyEewJpGA",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/loscanarios.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Sur",
     "nombre": "Volcán de San Antonio",
     "tipo": "Volcán",
-    "url": "https://maps.app.goo.gl/RG29kVoErY3DezZd9"
+    "url": "https://maps.app.goo.gl/RG29kVoErY3DezZd9",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/sanantonio.jpg",
+    "imprescindible": true
   },
   {
     "zona": "Sur",
     "nombre": "Playa de Echentive",
     "tipo": "Playa",
-    "url": "https://maps.app.goo.gl/aQtnoWi4uVsEKP1K8"
+    "url": "https://maps.app.goo.gl/aQtnoWi4uVsEKP1K8",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/echentive.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Sur",
     "nombre": "Punta Larga",
     "tipo": "Playa",
-    "url": "https://maps.app.goo.gl/JyPqdz1ZhpPocSEV8"
+    "url": "https://maps.app.goo.gl/JyPqdz1ZhpPocSEV8",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/puntalarga.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Sur",
     "nombre": "La Zamora",
     "tipo": "Playa",
-    "url": "https://maps.app.goo.gl/x4AzUAnz1b1v7Haf9"
+    "url": "https://maps.app.goo.gl/x4AzUAnz1b1v7Haf9",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/zamora.jpg",
+    "imprescindible": false
   },
   {
-    "zona": "Valle",
+    "zona": "Sur",
     "nombre": "El Remo",
     "tipo": "Playa",
-    "url": "https://maps.app.goo.gl/CZN6dLxzJCYvc76s9"
+    "url": "https://maps.app.goo.gl/CZN6dLxzJCYvc76s9",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/remo.jpg",
+    "imprescindible": false
   },
   {
-    "zona": "Valle",
+    "zona": "Sur",
     "nombre": "Charco Verde",
     "tipo": "Playa",
-    "url": "https://maps.app.goo.gl/GWiPpW94aio8AeYk9"
+    "url": "https://maps.app.goo.gl/GWiPpW94aio8AeYk9",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/charcoverde.jpg",
+    "imprescindible": false
   },
   {
-    "zona": "Valle",
+    "zona": "Sur",
     "nombre": "Puerto Naos",
     "tipo": "Playa",
-    "url": "https://maps.app.goo.gl/B5FfW9EQ64wVUnsd7"
+    "url": "https://maps.app.goo.gl/B5FfW9EQ64wVUnsd7",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/puertonaos.jpg",
+    "imprescindible": true
   },
   {
-    "zona": "Valle",
+    "zona": "Sur",
     "nombre": "Plaza La Glorieta",
     "tipo": "Plaza",
-    "url": "https://maps.app.goo.gl/dEQLuJS8yyG98zHY6"
+    "url": "https://maps.app.goo.gl/dEQLuJS8yyG98zHY6",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/glorieta.jpg",
+    "imprescindible": false
   },
   {
-    "zona": "Valle",
+    "zona": "Sur",
     "nombre": "La Bombilla",
     "tipo": "Pueblo",
-    "url": "https://maps.app.goo.gl/yHo6DNTjqWbPSgc27"
+    "url": "https://maps.app.goo.gl/yHo6DNTjqWbPSgc27",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/bombilla.jpg",
+    "imprescindible": false
   },
   {
-    "zona": "Valle",
+    "zona": "Sur",
     "nombre": "Caños de Fuego",
     "tipo": "Tubo volcánico",
-    "url": "https://maps.app.goo.gl/JN2MtkjYj9hBsrui6"
+    "url": "https://maps.app.goo.gl/JN2MtkjYj9hBsrui6",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/canosfuego.jpg",
+    "imprescindible": false
   },
   {
-    "zona": "Valle",
+    "zona": "Centro/Oeste",
     "nombre": "Refugio del Pilar",
     "tipo": "Área recreativa",
-    "url": "https://maps.app.goo.gl/jVBqoqPuLzdwKesn6"
+    "url": "https://maps.app.goo.gl/jVBqoqPuLzdwKesn6",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/refugiopilar.jpg",
+    "imprescindible": true
   },
   {
-    "zona": "Valle",
+    "zona": "Centro/Oeste",
     "nombre": "Mirador de La Cumbrecita",
     "tipo": "Mirador",
-    "url": "https://maps.app.goo.gl/YeAEGArkEyNbAZFCA"
+    "url": "https://maps.app.goo.gl/YeAEGArkEyNbAZFCA",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/cumbrecita.webp",
+    "imprescindible": true
   },
   {
-    "zona": "Valle",
+    "zona": "Centro/Oeste",
     "nombre": "Llano del Jable",
     "tipo": "Mirador",
-    "url": "https://maps.app.goo.gl/ujZjnZrWZd2AN68X6"
+    "url": "https://maps.app.goo.gl/ujZjnZrWZd2AN68X6",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/llanojable.webp",
+    "imprescindible": false
   },
   {
-    "zona": "Valle",
+    "zona": "Centro/Oeste",
     "nombre": "Volcán Tajogaite",
     "tipo": "Volcán",
-    "url": "https://maps.app.goo.gl/7DqQnzioLPs8HuZv6"
+    "url": "https://maps.app.goo.gl/7DqQnzioLPs8HuZv6",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/tajogaite.jpg",
+    "imprescindible": true
   },
   {
-    "zona": "Valle",
+    "zona": "Centro/Oeste",
     "nombre": "Los Llanos de Aridane",
     "tipo": "Ciudad",
-    "url": "https://maps.app.goo.gl/GP4qLhnViT1vTd39A"
+    "url": "https://maps.app.goo.gl/GP4qLhnViT1vTd39A",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/losllanos.webp",
+    "imprescindible": false
   },
   {
-    "zona": "Valle",
-    "nombre": "Tazacorte",
+    "zona": "Centro/Oeste",
+    "nombre": "Puerto Tazacorte",
     "tipo": "Pueblo",
-    "url": "https://maps.app.goo.gl/RFapcqwA72kMVLBaA"
+    "url": "https://maps.app.goo.gl/RFapcqwA72kMVLBaA",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/puertotazacorte.jpg",
+    "imprescindible": false
   },
   {
-    "zona": "Valle",
+    "zona": "Centro/Oeste",
     "nombre": "Fancy Boat",
     "tipo": "Excursión en barco",
-    "url": "https://maps.app.goo.gl/DJVQYRRgRQ7ix5Ht6"
+    "url": "https://maps.app.goo.gl/DJVQYRRgRQ7ix5Ht6",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/fancy.avif",
+    "imprescindible": false
   },
   {
-    "zona": "Valle",
+    "zona": "Centro/Oeste",
     "nombre": "Caldera de Taburiente",
     "tipo": "Ruta",
-    "url": "https://maps.app.goo.gl/29MVWtkXuf1X74vN7"
+    "url": "https://maps.app.goo.gl/29MVWtkXuf1X74vN7",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/taburiente.avif",
+    "imprescindible": false
   },
   {
     "zona": "Noroeste",
     "nombre": "Mirador de El Time",
     "tipo": "Mirador",
-    "url": "https://maps.app.goo.gl/qHtbarNmvEuQKY9x9"
+    "url": "https://maps.app.goo.gl/qHtbarNmvEuQKY9x9",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/eltime.jpg",
+    "imprescindible": true
   },
   {
     "zona": "Noroeste",
     "nombre": "Porís de Candelaria",
     "tipo": "Piscina natural",
-    "url": "https://maps.app.goo.gl/3AmTeZKDCTZ9RtZs7"
+    "url": "https://maps.app.goo.gl/3AmTeZKDCTZ9RtZs7",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/poriscandelaria.avif",
+    "imprescindible": false
   },
   {
     "zona": "Noroeste",
     "nombre": "Playa de La Veta",
     "tipo": "Playa",
-    "url": "https://maps.app.goo.gl/tqoPY7WzzPGjr69N8"
+    "url": "https://maps.app.goo.gl/tqoPY7WzzPGjr69N8",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/laveta.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noroeste",
     "nombre": "Puerto de Puntagorda",
     "tipo": "Zona de baño",
-    "url": "https://maps.app.goo.gl/tjEyoRZ6Zwd4Afja7"
+    "url": "https://maps.app.goo.gl/tjEyoRZ6Zwd4Afja7",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/puertopuntagorda.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noroeste",
     "nombre": "Mirador de Izcagua",
     "tipo": "Mirador",
-    "url": "https://maps.app.goo.gl/WxXrWShwLiemxSmc9"
+    "url": "https://maps.app.goo.gl/WxXrWShwLiemxSmc9",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/izcagua.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noroeste",
     "nombre": "Mercado de Puntagorda",
     "tipo": "Mercado",
-    "url": "https://maps.app.goo.gl/TjnnTU5GAuq3KNf99"
+    "url": "https://maps.app.goo.gl/TjnnTU5GAuq3KNf99",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/mercadopuntagorda.jpeg",
+    "imprescindible": false
   },
   {
     "zona": "Noroeste",
     "nombre": "Las Tricias",
     "tipo": "Pueblo",
-    "url": "https://maps.app.goo.gl/hBDhKXAeBo1nh6Zk6"
+    "url": "https://maps.app.goo.gl/hBDhKXAeBo1nh6Zk6",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/tricias.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noroeste",
     "nombre": "Santo Domingo",
     "tipo": "Pueblo",
-    "url": "https://maps.app.goo.gl/PASPDB1mhd98zKsS9"
+    "url": "https://maps.app.goo.gl/PASPDB1mhd98zKsS9",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/santodomingo.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noroeste",
     "nombre": "Playa de Bujarén",
     "tipo": "Playa",
-    "url": "https://maps.app.goo.gl/FsnzSgz1Ra6AECoV8"
+    "url": "https://maps.app.goo.gl/FsnzSgz1Ra6AECoV8",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/bujaren.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noroeste",
     "nombre": "La Zarza",
     "tipo": "Parque arqueológico",
-    "url": "https://maps.app.goo.gl/azDzgHHJ4tUdj8F37"
+    "url": "https://maps.app.goo.gl/azDzgHHJ4tUdj8F37",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/zarza.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noroeste",
     "nombre": "Centro de Visitantes del Observatorio",
     "tipo": "Museo",
-    "url": "https://maps.app.goo.gl/e9TeHRaZBZStw2XC8"
+    "url": "https://maps.app.goo.gl/e9TeHRaZBZStw2XC8",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/visitantesrm.jpg",
+    "imprescindible": false
   },
   {
     "zona": "Noroeste",
     "nombre": "Roque de los Muchachos",
-    "tipo": "Mirador",
-    "url": "https://maps.app.goo.gl/cE2Q7hnQt1nQAEnK7"
+    "tipo": "Montaña",
+    "url": "https://maps.app.goo.gl/cE2Q7hnQt1nQAEnK7",
+    "descripcion": "Descripción pendiente.",
+    "foto": "assets/fotos/roquemuchachos.jpg",
+    "imprescindible": true
   }
 ]

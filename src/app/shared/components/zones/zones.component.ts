@@ -4,6 +4,9 @@ import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
+import { MatDialog } from '@angular/material/dialog';
+// COMPONENTS
+import { ActividadesModalDetailsComponent } from '../modals/actividades-modal-details.component';
 
 @Component({
   selector: 'app-zone',
@@ -20,7 +23,7 @@ export class ZonesComponent implements OnInit
   restaurantes: Restaurante[] = [];
   actividades: Actividad[] = [];
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private dialog: MatDialog) {}
 
   ngOnInit(): void {
     if (!this.zona) return;
@@ -31,6 +34,14 @@ export class ZonesComponent implements OnInit
 
     this.http.get<Actividad[]>('assets/data/actividades.json').subscribe((data) => {
       this.actividades = data.filter((a) => a.zona === this.zona);
+    });
+  }
+
+  openInfo(actividad: Actividad) {
+    this.dialog.open(ActividadesModalDetailsComponent, {
+      width: '600px',
+      maxWidth: '95vw',
+      data: actividad
     });
   }
 }
