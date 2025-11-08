@@ -71,10 +71,56 @@
   width: 100%;
   border-radius: 8px;
   transition: background 0.2s ease;
+  position: relative;
 }
 
 .restaurante-item:hover {
   background: rgba(0, 0, 0, 0.03);
+}
+
+.restaurante-item.imprescindible {
+  background: rgba(255, 210, 31, 0.12);
+  position: relative;
+  border-radius: 8px;
+}
+
+.imprescindible-badge {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255, 210, 31, 0.15);
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+.imprescindible-badge mat-icon {
+  color: #FFD21F;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+
+.imprescindible-badge span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+  display: inline-block;
+}
+
+.btn-info {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 2px 10px;
+  font-size: 12px;
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  border-radius: 6px;
+  line-height: 18px;
+  z-index: 2;
 }
 
 .restaurante-nombre {
@@ -158,6 +204,10 @@
   .restaurante-datos {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     column-gap: 8px;
+  }
+
+  .imprescindible-badge span {
+    display: none;
   }
 
   .dato-titulo {

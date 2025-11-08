@@ -1,0 +1,12 @@
+<div class="modal-header">
+  <h2>{{ data.nombre }}</h2>
+  <button mat-icon-button (click)="close()">
+    <mat-icon>close</mat-icon>
+  </button>
+</div>
+
+<div class="modal-body">
+  <img *ngIf="data.foto" [src]="data.foto" class="foto-actividad">
+
+  <p>{{ data.descripcion }}</p>
+</div>
