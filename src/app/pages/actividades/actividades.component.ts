@@ -13,7 +13,7 @@ import { ActividadesModalDetailsComponent } from '../../shared/components/modals
   standalone: true,
   imports: [CommonModule, MatCardModule, MatIconModule],
   templateUrl: './actividades.component.html',
-  styleUrls: ['./actividades.component.scss'],
+  styleUrls: ['../../shared/styles/info-cards.scss'],
 })
 export class ActividadesComponent implements OnInit
 {

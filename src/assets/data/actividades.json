@@ -342,7 +342,7 @@
     "imprescindible": false
   },
   {
-    "zona": "Centro/Oeste",
+    "zona": "Valle",
     "nombre": "Refugio del Pilar",
     "tipo": "Área recreativa",
     "url": "https://maps.app.goo.gl/jVBqoqPuLzdwKesn6",
@@ -351,8 +351,8 @@
     "imprescindible": true
   },
   {
-    "zona": "Centro/Oeste",
-    "nombre": "Mirador de La Cumbrecita",
+    "zona": "Valle",
+    "nombre": "La Cumbrecita",
     "tipo": "Mirador",
     "url": "https://maps.app.goo.gl/YeAEGArkEyNbAZFCA",
     "descripcion": "Descripción pendiente.",
@@ -360,7 +360,7 @@
     "imprescindible": true
   },
   {
-    "zona": "Centro/Oeste",
+    "zona": "Valle",
     "nombre": "Llano del Jable",
     "tipo": "Mirador",
     "url": "https://maps.app.goo.gl/ujZjnZrWZd2AN68X6",
@@ -369,7 +369,7 @@
     "imprescindible": false
   },
   {
-    "zona": "Centro/Oeste",
+    "zona": "Valle",
     "nombre": "Volcán Tajogaite",
     "tipo": "Volcán",
     "url": "https://maps.app.goo.gl/7DqQnzioLPs8HuZv6",
@@ -378,7 +378,7 @@
     "imprescindible": true
   },
   {
-    "zona": "Centro/Oeste",
+    "zona": "Valle",
     "nombre": "Los Llanos de Aridane",
     "tipo": "Ciudad",
     "url": "https://maps.app.goo.gl/GP4qLhnViT1vTd39A",
@@ -387,7 +387,7 @@
     "imprescindible": false
   },
   {
-    "zona": "Centro/Oeste",
+    "zona": "Valle",
     "nombre": "Puerto Tazacorte",
     "tipo": "Pueblo",
     "url": "https://maps.app.goo.gl/RFapcqwA72kMVLBaA",
@@ -396,7 +396,7 @@
     "imprescindible": false
   },
   {
-    "zona": "Centro/Oeste",
+    "zona": "Valle",
     "nombre": "Fancy Boat",
     "tipo": "Excursión en barco",
     "url": "https://maps.app.goo.gl/DJVQYRRgRQ7ix5Ht6",
@@ -405,7 +405,7 @@
     "imprescindible": false
   },
   {
-    "zona": "Centro/Oeste",
+    "zona": "Valle",
     "nombre": "Caldera de Taburiente",
     "tipo": "Ruta",
     "url": "https://maps.app.goo.gl/29MVWtkXuf1X74vN7",
@@ -505,7 +505,7 @@
   },
   {
     "zona": "Noroeste",
-    "nombre": "Centro de Visitantes del Observatorio",
+    "nombre": "C.V. del Observatorio",
     "tipo": "Museo",
     "url": "https://maps.app.goo.gl/e9TeHRaZBZStw2XC8",
     "descripcion": "Descripción pendiente.",

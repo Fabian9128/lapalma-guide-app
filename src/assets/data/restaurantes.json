@@ -141,7 +141,7 @@
     "tipo": "Cocina de autor",
     "precio": "€€",
     "url": "https://maps.app.goo.gl/Z4usA1VJCFNNkLLY8",
-    "imprescindible": false
+    "imprescindible": true
   },
   {
     "zona": "Este",
