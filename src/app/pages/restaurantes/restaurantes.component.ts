@@ -10,7 +10,7 @@ import { HttpClient } from '@angular/common/http';
   standalone: true,
   imports: [CommonModule, MatCardModule, MatIconModule],
   templateUrl: './restaurantes.component.html',
-  styleUrls: ['./restaurantes.component.scss'],
+  styleUrls: ['../../shared/styles/info-cards.scss'],
 })
 export class RestaurantesComponent implements OnInit
 {
