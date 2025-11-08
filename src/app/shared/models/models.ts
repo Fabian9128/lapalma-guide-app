@@ -4,6 +4,7 @@ interface Restaurante {
   tipo: string;
   precio?: string;
   url?: string;
+  imprescindible: string;
 }
 
 interface Actividad {

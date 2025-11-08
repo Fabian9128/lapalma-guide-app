@@ -4,377 +4,439 @@
     "nombre": "Casa Asterio",
     "tipo": "Comida canaria",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/FuKu3ByyjwFhcBFU7"
+    "url": "https://maps.app.goo.gl/FuKu3ByyjwFhcBFU7",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "Mesón del Mar",
     "tipo": "Pescado",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/aSU2yVvdxtM9TGfV9"
+    "url": "https://maps.app.goo.gl/aSU2yVvdxtM9TGfV9",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "Rompecabos",
     "tipo": "Pescado",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/scUmtmyP4LuCnHzw7"
+    "url": "https://maps.app.goo.gl/scUmtmyP4LuCnHzw7",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "San Andrés",
     "tipo": "Pescado",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/eRB84G3zajjRntru8"
+    "url": "https://maps.app.goo.gl/eRB84G3zajjRntru8",
+    "imprescindible": true
   },
   {
     "zona": "Noreste",
     "nombre": "La Placita",
     "tipo": "Pescado y thai",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/RCJaceP2iYK5ubFH6"
+    "url": "https://maps.app.goo.gl/RCJaceP2iYK5ubFH6",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "La Pradera",
     "tipo": "Comida canaria",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/GaxWgy7NcsFf5ANt8"
+    "url": "https://maps.app.goo.gl/GaxWgy7NcsFf5ANt8",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "El Campesino",
     "tipo": "Comida canaria",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/jAJvjiqu1afyG1Wy7"
+    "url": "https://maps.app.goo.gl/jAJvjiqu1afyG1Wy7",
+    "imprescindible": true
   },
   {
     "zona": "Noreste",
     "nombre": "La Gaviota",
     "tipo": "Pescado",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/ozMeP5n6MNu2fz7A9"
+    "url": "https://maps.app.goo.gl/ozMeP5n6MNu2fz7A9",
+    "imprescindible": false
   },
   {
     "zona": "Noreste",
     "nombre": "El Canal",
     "tipo": "Cocina de autor",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/x77KzVWBi2KngF917"
+    "url": "https://maps.app.goo.gl/x77KzVWBi2KngF917",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Chipi Chipi",
     "tipo": "Comida canaria",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/AeQhPD1YYTtsUM4c9"
+    "url": "https://maps.app.goo.gl/AeQhPD1YYTtsUM4c9",
+    "imprescindible": true
   },
   {
     "zona": "Este",
     "nombre": "Casa Osmunda",
     "tipo": "Alta cocina",
     "precio": "€€€",
-    "url": "https://maps.app.goo.gl/Da7KERb9ET1cVhQe6"
+    "url": "https://maps.app.goo.gl/Da7KERb9ET1cVhQe6",
+    "imprescindible": true
   },
   {
     "zona": "Este",
     "nombre": "El Chinchal",
     "tipo": "Cocina de autor",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/ncVUQyLdmZEkVy2j6"
+    "url": "https://maps.app.goo.gl/ncVUQyLdmZEkVy2j6",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Bululú",
     "tipo": "Venezolana y fusión",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/YKRnz8NfmZtoriFy8"
+    "url": "https://maps.app.goo.gl/YKRnz8NfmZtoriFy8",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "La Terraza",
     "tipo": "Papas locas",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/G9PyVkkJgcrA3LMC9"
+    "url": "https://maps.app.goo.gl/G9PyVkkJgcrA3LMC9",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "La Chalana",
     "tipo": "Pescado",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/Q2m3qV2dUHdVa3kJ7"
+    "url": "https://maps.app.goo.gl/Q2m3qV2dUHdVa3kJ7",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Isla de Goya",
     "tipo": "Tapas",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/W9hbRw27wp7eMmdU8"
+    "url": "https://maps.app.goo.gl/W9hbRw27wp7eMmdU8",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Ajua",
     "tipo": "Mexicana",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/YJay9LzV6KQf3aC69"
+    "url": "https://maps.app.goo.gl/YJay9LzV6KQf3aC69",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Carlos Tasca",
     "tipo": "Cocina de autor",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/Z4usA1VJCFNNkLLY8"
+    "url": "https://maps.app.goo.gl/Z4usA1VJCFNNkLLY8",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Parrilla Las Nieves",
     "tipo": "Canario",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/Q3G2VidtxBXZGAWB9"
+    "url": "https://maps.app.goo.gl/Q3G2VidtxBXZGAWB9",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "La Placeta",
     "tipo": "Cocina de autor",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/b77tWFsYDKxzzky56"
+    "url": "https://maps.app.goo.gl/b77tWFsYDKxzzky56",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Bodegón Los Álamos",
     "tipo": "Cocina de autor",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/LN8fujRmncLrBkRz9"
+    "url": "https://maps.app.goo.gl/LN8fujRmncLrBkRz9",
+    "imprescindible": false
   },
   {
     "zona": "Este",
-    "nombre": "Sputnik / La Marina",
+    "nombre": "Sputnik",
     "tipo": "Copas",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/QDsaSizWVDTtxd6g8"
+    "url": "https://maps.app.goo.gl/QDsaSizWVDTtxd6g8",
+    "imprescindible": false
+  },
+  {
+    "zona": "Este",
+    "nombre": "Bodeguita del Medio",
+    "tipo": "Copas",
+    "precio": "€",
+    "url": "https://maps.app.goo.gl/QDsaSizWVDTtxd6g8",
+    "imprescindible": true
   },
   {
     "zona": "Este",
     "nombre": "Andares",
     "tipo": "Brunch y autor",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/RsuqqPdcgfDKyi3L6"
+    "url": "https://maps.app.goo.gl/RsuqqPdcgfDKyi3L6",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Fresa y Chocolate",
     "tipo": "Papas locas",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/qZdGn3KS5kmNwSJW6"
+    "url": "https://maps.app.goo.gl/qZdGn3KS5kmNwSJW6",
+    "imprescindible": true
   },
   {
     "zona": "Este",
     "nombre": "El Encuentro",
     "tipo": "Venezolana",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/5J7PcaM36QtbZs438"
+    "url": "https://maps.app.goo.gl/5J7PcaM36QtbZs438",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "La Lonja",
     "tipo": "Cocina de autor",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/iGjeUyLwadinoeTh9"
+    "url": "https://maps.app.goo.gl/iGjeUyLwadinoeTh9",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Las 3 Chimeneas",
     "tipo": "Carne",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/6YGTChmpg8HiN3297"
+    "url": "https://maps.app.goo.gl/6YGTChmpg8HiN3297",
+    "imprescindible": false
   },
   {
     "zona": "Este",
     "nombre": "Kudasai",
     "tipo": "Japonesa",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/SwF6NtwAEhkmWLK17"
+    "url": "https://maps.app.goo.gl/SwF6NtwAEhkmWLK17",
+    "imprescindible": false
   },
   {
     "zona": "Valle",
     "nombre": "Bodegón Tamanca",
     "tipo": "Comida canaria",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/HqyH4ajMfTRCxbRy6"
+    "url": "https://maps.app.goo.gl/HqyH4ajMfTRCxbRy6",
+    "imprescindible": true
   },
   {
     "zona": "Sur",
     "nombre": "La Era",
     "tipo": "Canario",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/7g7BAE1RfDnZ3w2Y9"
+    "url": "https://maps.app.goo.gl/7g7BAE1RfDnZ3w2Y9",
+    "imprescindible": true
   },
   {
     "zona": "Sur",
     "nombre": "Jardín de la Sal",
     "tipo": "Alta cocina",
     "precio": "€€€",
-    "url": "https://maps.app.goo.gl/wADNH8Z6kf2shbBr6"
+    "url": "https://maps.app.goo.gl/wADNH8Z6kf2shbBr6",
+    "imprescindible": false
   },
   {
     "zona": "Valle",
     "nombre": "Ocean Drive",
     "tipo": "Cocktails",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/jZY2QJnHQ8qyp2xM9"
+    "url": "https://maps.app.goo.gl/jZY2QJnHQ8qyp2xM9",
+    "imprescindible": true
   },
   {
     "zona": "Sur",
     "nombre": "La Casa del Volcán",
     "tipo": "Cocina de autor",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/XCBVx1EehHNZoQCWA"
+    "url": "https://maps.app.goo.gl/XCBVx1EehHNZoQCWA",
+    "imprescindible": false
   },
   {
     "zona": "Sur",
     "nombre": "Kiosco La Zamora",
     "tipo": "Pescado y vistas",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/vLrUtByvmHZtfqdf9"
+    "url": "https://maps.app.goo.gl/vLrUtByvmHZtfqdf9",
+    "imprescindible": true
   },
   {
     "zona": "Valle",
     "nombre": "El Americano",
     "tipo": "Papas locas",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/X8HmwyFCJtxv2hCt5"
+    "url": "https://maps.app.goo.gl/X8HmwyFCJtxv2hCt5",
+    "imprescindible": true
   },
   {
     "zona": "Valle",
     "nombre": "Balcón de Taburiente",
     "tipo": "Comida canaria",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/buC7G93gm3xHmDmGA"
+    "url": "https://maps.app.goo.gl/buC7G93gm3xHmDmGA",
+    "imprescindible": false
   },
   {
     "zona": "Valle",
     "nombre": "San Petronio",
     "tipo": "Italiano",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/XYv1rJfdND9oyCv47"
+    "url": "https://maps.app.goo.gl/XYv1rJfdND9oyCv47",
+    "imprescindible": true
   },
   {
     "zona": "Valle",
     "nombre": "Due Torri",
     "tipo": "Italiano",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/wzBFUsbkwpUj2ihL8"
+    "url": "https://maps.app.goo.gl/wzBFUsbkwpUj2ihL8",
+    "imprescindible": false
   },
   {
     "zona": "Valle",
     "nombre": "Playa Mont",
     "tipo": "Pescado",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/ZL7mmEyLjvMRJvxC7"
+    "url": "https://maps.app.goo.gl/ZL7mmEyLjvMRJvxC7",
+    "imprescindible": true
   },
   {
     "zona": "Valle",
     "nombre": "Kiosco Montecarlo",
     "tipo": "Pescado",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/mKw2a4fQJtTgdWrW8"
+    "url": "https://maps.app.goo.gl/mKw2a4fQJtTgdWrW8",
+    "imprescindible": false
   },
   {
     "zona": "Valle",
     "nombre": "Rincón de Moraga",
     "tipo": "Alta cocina",
     "precio": "€€€",
-    "url": "https://maps.app.goo.gl/qBegHwigtT1Tz1yB7"
+    "url": "https://maps.app.goo.gl/qBegHwigtT1Tz1yB7",
+    "imprescindible": false
   },
   {
     "zona": "Valle",
     "nombre": "Los Argentinos",
     "tipo": "Carne",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/wi5Ld3zeCB1tJ6dA9"
+    "url": "https://maps.app.goo.gl/wi5Ld3zeCB1tJ6dA9",
+    "imprescindible": false
   },
   {
     "zona": "Valle",
     "nombre": "La Colonial 25",
     "tipo": "Cocina de autor",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/qHSe6Ysj3UWr6TZs9"
+    "url": "https://maps.app.goo.gl/qHSe6Ysj3UWr6TZs9",
+    "imprescindible": false
   },
   {
     "zona": "Valle",
     "nombre": "El Jable",
     "tipo": "Venezolana",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/xxSprziNZpv8522y9"
+    "url": "https://maps.app.goo.gl/xxSprziNZpv8522y9",
+    "imprescindible": false
   },
   {
     "zona": "Valle",
     "nombre": "Re-Belle",
     "tipo": "Cocina de autor",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/waMtdB2pAxFKBEDQ8"
+    "url": "https://maps.app.goo.gl/waMtdB2pAxFKBEDQ8",
+    "imprescindible": false
   },
   {
     "zona": "Valle",
     "nombre": "La Locanda",
     "tipo": "Italiana",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/ot9H5e2NDySfVKFYA"
+    "url": "https://maps.app.goo.gl/ot9H5e2NDySfVKFYA",
+    "imprescindible": false
   },
   {
     "zona": "Valle",
     "nombre": "La Papaya",
     "tipo": "Brunch",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/USxgLaqWj72eEQ4J9"
+    "url": "https://maps.app.goo.gl/USxgLaqWj72eEQ4J9",
+    "imprescindible": false
   },
   {
     "zona": "Valle",
     "nombre": "Franchipani",
     "tipo": "Cocina de autor",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/TqQRtvimHXMZMdyw5"
+    "url": "https://maps.app.goo.gl/TqQRtvimHXMZMdyw5",
+    "imprescindible": false
   },
   {
     "zona": "Valle",
     "nombre": "Yaracuy",
     "tipo": "Venezolana",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/eHz7Pt6GxihBi7C2A"
+    "url": "https://maps.app.goo.gl/eHz7Pt6GxihBi7C2A",
+    "imprescindible": false
   },
   {
     "zona": "Noroeste",
     "nombre": "La Muralla",
     "tipo": "Cocina de autor",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/YWWJThLCDJ247CG57"
+    "url": "https://maps.app.goo.gl/YWWJThLCDJ247CG57",
+    "imprescindible": false
   },
   {
     "zona": "Noroeste",
     "nombre": "Pino de la Virgen",
     "tipo": "Comida canaria",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/MydPR3NWTuHZ5RPw8"
+    "url": "https://maps.app.goo.gl/MydPR3NWTuHZ5RPw8",
+    "imprescindible": true
   },
   {
     "zona": "Noroeste",
     "nombre": "El Bernegal",
     "tipo": "Cocina de autor",
     "precio": "€€",
-    "url": "https://maps.app.goo.gl/Dh5jkESAGsGYBKV78"
+    "url": "https://maps.app.goo.gl/Dh5jkESAGsGYBKV78",
+    "imprescindible": true
   },
   {
     "zona": "Noroeste",
     "nombre": "La Mata",
     "tipo": "Comida canaria",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/i9AkcFrLzN4N13SMA"
+    "url": "https://maps.app.goo.gl/i9AkcFrLzN4N13SMA",
+    "imprescindible": false
   },
   {
     "zona": "Noroeste",
     "nombre": "San Antonio del Monte",
     "tipo": "Comida canaria",
     "precio": "€",
-    "url": "https://maps.app.goo.gl/7amkCQ9SR73jPY576"
+    "url": "https://maps.app.goo.gl/7amkCQ9SR73jPY576",
+    "imprescindible": false
   }
 ]
