@@ -8,12 +8,17 @@
 
     <div class="information-content">
       <div class="restaurante-item" *ngFor="let r of actividades; let last = last">
+
+        <button mat-button class="btn-info" (click)="openInfo(r)">
+          +Info
+        </button>
+
         <div class="restaurante-nombre">
           <a *ngIf="r.url"
-             [href]="r.url"
-             target="_blank"
-             rel="noopener noreferrer"
-             class="enlace">
+              [href]="r.url"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="enlace">
             <h2>{{ r.nombre }}</h2>
           </a>
           <h2 *ngIf="!r.url">{{ r.nombre }}</h2>
