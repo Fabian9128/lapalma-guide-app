@@ -48,7 +48,13 @@
       </div>
 
       <div class="information-content">
-        <div class="restaurante-item" *ngFor="let a of actividades; let last = last">
+        <div class="restaurante-item" *ngFor="let a of actividades; let last = last"
+            [class.imprescindible]="a.imprescindible">
+
+          <div class="imprescindible-badge" *ngIf="a.imprescindible">
+            <mat-icon>star</mat-icon>
+            <span>Imprescindible</span>
+          </div>
 
           <button mat-button class="btn-info" (click)="openInfo(a)">
             +Info

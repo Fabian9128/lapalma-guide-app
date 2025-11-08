@@ -107,6 +107,7 @@
   font-size: 12px;
   font-weight: 600;
   color: #333;
+  display: inline-block;
 }
 
 .btn-info {
@@ -203,6 +204,10 @@
   .restaurante-datos {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     column-gap: 8px;
+  }
+
+  .imprescindible-badge span {
+    display: none;
   }
 
   .dato-titulo {
