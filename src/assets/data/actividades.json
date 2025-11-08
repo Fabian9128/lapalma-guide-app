@@ -4,7 +4,7 @@
     "nombre": "Playa de Nogales",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/S7WdiZ6trVrJ9zoZA",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Playa salvaje espectacular donde se han rodado películas. Impresiona el acantilado y las olas, pero conviene tener precaución con las corrientes.",
     "foto": "assets/fotos/nogales.webp",
     "imprescindible": false
   },
@@ -13,7 +13,7 @@
     "nombre": "Puerto Paja",
     "tipo": "Piscina natural",
     "url": "https://maps.app.goo.gl/9f1dDNd3ees5NEWp8",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Piscinas naturales en Puntallana, de fácil acceso y perfectas para un baño tranquilo.",
     "foto": "assets/fotos/puertopaja.jpg",
     "imprescindible": false
   },
@@ -22,7 +22,7 @@
     "nombre": "Fuente de San Juan",
     "tipo": "Fuente",
     "url": "https://maps.app.goo.gl/P3bELSYaXjLpgFaaA",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Rinconcito emblemático del casco de Puntallana, con mucho encanto y sombra bajo los laureles.",
     "foto": "assets/fotos/fuentesanjuan.jpg",
     "imprescindible": false
   },
@@ -31,7 +31,7 @@
     "nombre": "Mirador de San Bartolo",
     "tipo": "Mirador",
     "url": "https://maps.app.goo.gl/GXWwLWJMtRpYVCaa9",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Mirador clásico de La Galga, con vistas amplias al noreste de la isla.",
     "foto": "assets/fotos/sanbartolo.jpg",
     "imprescindible": false
   },
@@ -40,7 +40,7 @@
     "nombre": "Cubo de La Galga",
     "tipo": "Sendero",
     "url": "https://maps.app.goo.gl/wQof4uKXHz6DKDxW6",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Sendero imprescindible para ver la laurisilva en todo su esplendor. Acceso sencillo y aparcamiento cercano.",
     "foto": "assets/fotos/cubogalga.jpg",
     "imprescindible": true
   },
@@ -49,7 +49,7 @@
     "nombre": "El Tendal",
     "tipo": "Parque arqueológico",
     "url": "https://maps.app.goo.gl/4RfPFSmcwamvHJ3XA",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Centro arqueológico dedicado a la cultura benahoarita, con un entorno muy verde y un museo moderno.",
     "foto": "assets/fotos/tendal.jpg",
     "imprescindible": false
   },
@@ -58,7 +58,7 @@
     "nombre": "Los Tilos",
     "tipo": "Sendero",
     "url": "https://maps.app.goo.gl/kWAKyVUvwEeD9QpM8",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "La cascada más famosa de la isla. Zona frondosa, área recreativa y vistas al puente.",
     "foto": "assets/fotos/tilos.jpg",
     "imprescindible": true
   },
@@ -67,7 +67,7 @@
     "nombre": "Marcos y Cordero",
     "tipo": "Sendero",
     "url": "https://maps.app.goo.gl/G424t6jLPpCsCTep9",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Ruta espectacular con túneles y cascadas. Normalmente requiere taxi para llegar al inicio.",
     "foto": "assets/fotos/marcoscordero.jpg",
     "imprescindible": false
   },
@@ -76,7 +76,7 @@
     "nombre": "Charco Azul",
     "tipo": "Piscinas naturales",
     "url": "https://maps.app.goo.gl/HWY5KFUnkPHzsPuq7",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Conjunto de piscinas naturales de San Andrés y Sauces, muy bonitas y bien acondicionadas.",
     "foto": "assets/fotos/charcoazul.jpg",
     "imprescindible": true
   },
@@ -85,7 +85,7 @@
     "nombre": "San Andrés",
     "tipo": "Pueblo",
     "url": "https://maps.app.goo.gl/Yr2hfzanyKtP3azU8",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Pueblo pintoresco para disfrutar de arquitectura tradicional canaria, plataneras y paseos frente al mar.",
     "foto": "assets/fotos/sanandres.jpg",
     "imprescindible": false
   },
@@ -94,7 +94,7 @@
     "nombre": "Puerto Espíndola",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/XQPqWYEQnUSvMSyv5",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Playa y zona de baño del norte, con ambiente local y agua cristalina.",
     "foto": "assets/fotos/espindola.jpg",
     "imprescindible": false
   },
@@ -103,7 +103,7 @@
     "nombre": "Faro de Punta Cumplida",
     "tipo": "Faro",
     "url": "https://maps.app.goo.gl/XRp8Cygmo7YstWmD9",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Uno de los faros más bonitos de Canarias, rodeado de acantilados y mar abierto.",
     "foto": "assets/fotos/puntacumplida.webp",
     "imprescindible": false
   },
@@ -112,7 +112,7 @@
     "nombre": "La Fajana",
     "tipo": "Piscinas naturales",
     "url": "https://maps.app.goo.gl/nDLFGqaB1T6WMkGz6",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Conjunto de piscinas naturales bien protegidas del oleaje. Muy frecuentadas por familias.",
     "foto": "assets/fotos/lafajana.jpg",
     "imprescindible": false
   },
@@ -121,7 +121,7 @@
     "nombre": "Laguna de Barlovento",
     "tipo": "Área recreativa",
     "url": "https://maps.app.goo.gl/6mxGVzMe4KdCdn9p8",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Área recreativa amplia, con laguna artificial, senderos y zonas para picnic.",
     "foto": "assets/fotos/laguna.jpg",
     "imprescindible": false
   },
@@ -130,7 +130,7 @@
     "nombre": "Las Mimbreras",
     "tipo": "Carretera pintoresca",
     "url": "https://maps.app.goo.gl/Rh4AQ9pADCsec5mv6",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Carretera panorámica entre bosque húmedo. Precaución si hay mal tiempo.",
     "foto": "assets/fotos/mimbreras.jpg",
     "imprescindible": false
   },
@@ -139,7 +139,7 @@
     "nombre": "Santa Cruz de La Palma",
     "tipo": "Capital",
     "url": "https://maps.app.goo.gl/3eQoPe1aCJsjupG57",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Capital histórica de la isla, conocida por su arquitectura, balcones de colores y ambiente vivo.",
     "foto": "assets/fotos/scpalma.jpg",
     "imprescindible": true
   },
@@ -148,7 +148,7 @@
     "nombre": "Las Nieves",
     "tipo": "Ermita",
     "url": "https://maps.app.goo.gl/ZSDTEpb6Ci1R8LGy5",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Ermita donde se venera a la Virgen de Las Nieves, patrona de La Palma. Lugar muy cuidado y con tradición.",
     "foto": "assets/fotos/lasnieves.jpg",
     "imprescindible": true
   },
@@ -157,7 +157,7 @@
     "nombre": "Los Cancajos",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/RcFn1SctTeaK1xCU7",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Zona turística con playa abrigada, paseo marítimo y buenos sitios para comer.",
     "foto": "assets/fotos/cancajos.jpg",
     "imprescindible": false
   },
@@ -166,7 +166,7 @@
     "nombre": "Risco de la Concepción",
     "tipo": "Mirador",
     "url": "https://maps.app.goo.gl/djkAGVFdMiPzCYLG7",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Mirador elevado con vistas directas sobre la capital y la comarca de Las Breñas.",
     "foto": "assets/fotos/concepcion.jpg",
     "imprescindible": true
   },
@@ -175,7 +175,7 @@
     "nombre": "Playa de Bajamar",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/DXqRtBYKZJcD4iCN7",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Playa urbana cerca de Santa Cruz, ideal para un baño rápido y fácil de acceder.",
     "foto": "assets/fotos/bajamar.jpg",
     "imprescindible": false
   },
@@ -184,7 +184,7 @@
     "nombre": "Montaña de la Breña",
     "tipo": "Mirador",
     "url": "https://maps.app.goo.gl/Ju3cgUpc1Mj5Pj437",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Mirador perfecto para una panorámica del este de la isla y para observar el cielo nocturno.",
     "foto": "assets/fotos/montanabrena.jpg",
     "imprescindible": false
   },
@@ -193,7 +193,7 @@
     "nombre": "Ruta de las Fuentes",
     "tipo": "Sendero",
     "url": "https://maps.app.goo.gl/gD2zXqb6C5otT9BE8",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Sendero que atraviesa barranquillos y manantiales. Fresco, verde y muy agradable.",
     "foto": "assets/fotos/fuentes.jpg",
     "imprescindible": false
   },
@@ -202,7 +202,7 @@
     "nombre": "Pared Vieja",
     "tipo": "Área recreativa",
     "url": "https://maps.app.goo.gl/CVAbASpoGWT7R7q87",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Área recreativa dentro del pinar, muy tranquila y con mesas y sombra.",
     "foto": "assets/fotos/paredvieja.jpg",
     "imprescindible": false
   },
@@ -211,7 +211,7 @@
     "nombre": "Charcas del Aeropuerto",
     "tipo": "Piscinas naturales",
     "url": "https://maps.app.goo.gl/DDxAwx5cotTrzhJdA",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Piscinas naturales junto al aeropuerto, pequeñas pero curiosas para un chapuzón.",
     "foto": "assets/fotos/charcasaeropuerto.jpg",
     "imprescindible": false
   },
@@ -220,7 +220,7 @@
     "nombre": "Belmaco",
     "tipo": "Parque arqueológico",
     "url": "https://maps.app.goo.gl/LaXEH1SxrvRh9sAf8",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Parque arqueológico con grabados rupestres y un sendero sencillo entre cuevas históricas.",
     "foto": "assets/fotos/belmaco.jpg",
     "imprescindible": false
   },
@@ -229,7 +229,7 @@
     "nombre": "Mirador Las Toscas",
     "tipo": "Mirador",
     "url": "https://maps.app.goo.gl/yKoCZBHkm7Vwkpuy6",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Mirador tranquilo con vistas hacia el acantilado y el litoral del este.",
     "foto": "assets/fotos/lastoscas.webp",
     "imprescindible": false
   },
@@ -238,7 +238,7 @@
     "nombre": "Faro de Fuencaliente",
     "tipo": "Faro",
     "url": "https://maps.app.goo.gl/rG6ym1fDMuhPsfDR9",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Faros junto a las famosas salinas de hermosos colores. Escenario único para fotos y atardeceres.",
     "foto": "assets/fotos/farofuencaliente.webp",
     "imprescindible": true
   },
@@ -247,7 +247,7 @@
     "nombre": "Los Canarios",
     "tipo": "Pueblo",
     "url": "https://maps.app.goo.gl/G6KQMk16xyEewJpGA",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Pueblo principal de Fuencaliente, con bodegas cercanas y parada obligatoria para un almendrado.",
     "foto": "assets/fotos/loscanarios.jpg",
     "imprescindible": false
   },
@@ -256,7 +256,7 @@
     "nombre": "Volcán de San Antonio",
     "tipo": "Volcán",
     "url": "https://maps.app.goo.gl/RG29kVoErY3DezZd9",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Volcán visitable con sendero por el borde del cráter y vistas al sur de la isla.",
     "foto": "assets/fotos/sanantonio.jpg",
     "imprescindible": true
   },
@@ -265,7 +265,7 @@
     "nombre": "Playa de Echentive",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/aQtnoWi4uVsEKP1K8",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Playa formada tras la erupción de 1971, con charcos y zona volcánica rojiza.",
     "foto": "assets/fotos/echentive.jpg",
     "imprescindible": false
   },
@@ -274,7 +274,7 @@
     "nombre": "Punta Larga",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/JyPqdz1ZhpPocSEV8",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Pequeña poblado con piscina natural y playa tranquila de arena oscura y oleaje moderado.",
     "foto": "assets/fotos/puntalarga.jpg",
     "imprescindible": false
   },
@@ -283,7 +283,7 @@
     "nombre": "La Zamora",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/x4AzUAnz1b1v7Haf9",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Playa de arena negra con acantilado y buena para atardeceres.",
     "foto": "assets/fotos/zamora.jpg",
     "imprescindible": false
   },
@@ -292,7 +292,7 @@
     "nombre": "El Remo",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/CZN6dLxzJCYvc76s9",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Zona de casitas marineras con restaurantes frente al mar y ambiente relajado. Famoso por sus calamares.",
     "foto": "assets/fotos/remo.jpg",
     "imprescindible": false
   },
@@ -301,7 +301,7 @@
     "nombre": "Charco Verde",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/GWiPpW94aio8AeYk9",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Playa familiar y muy abrigada, con color verde característico del agua.",
     "foto": "assets/fotos/charcoverde.jpg",
     "imprescindible": false
   },
@@ -310,7 +310,7 @@
     "nombre": "Puerto Naos",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/B5FfW9EQ64wVUnsd7",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Playa turística amplia, paseo largo y ambiente animado.",
     "foto": "assets/fotos/puertonaos.jpg",
     "imprescindible": true
   },
@@ -319,7 +319,7 @@
     "nombre": "Plaza La Glorieta",
     "tipo": "Plaza",
     "url": "https://maps.app.goo.gl/dEQLuJS8yyG98zHY6",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Plaza artística diseñada por Luis Morera, llena de mosaicos y formas geométricas.",
     "foto": "assets/fotos/glorieta.jpg",
     "imprescindible": false
   },
@@ -328,7 +328,7 @@
     "nombre": "La Bombilla",
     "tipo": "Pueblo",
     "url": "https://maps.app.goo.gl/yHo6DNTjqWbPSgc27",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Pequeño poblado costero con esencia marinera y vistas bonitas.",
     "foto": "assets/fotos/bombilla.jpg",
     "imprescindible": false
   },
@@ -337,7 +337,7 @@
     "nombre": "Caños de Fuego",
     "tipo": "Tubo volcánico",
     "url": "https://maps.app.goo.gl/JN2MtkjYj9hBsrui6",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Centro interpretativo del tubo volcánico del volcán de San Juan, con pasarelas y miradores.",
     "foto": "assets/fotos/canosfuego.jpg",
     "imprescindible": false
   },
@@ -346,7 +346,7 @@
     "nombre": "Refugio del Pilar",
     "tipo": "Área recreativa",
     "url": "https://maps.app.goo.gl/jVBqoqPuLzdwKesn6",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Área recreativa central de la isla, punto clave para senderistas y para asaderos.",
     "foto": "assets/fotos/refugiopilar.jpg",
     "imprescindible": true
   },
@@ -355,7 +355,7 @@
     "nombre": "La Cumbrecita",
     "tipo": "Mirador",
     "url": "https://maps.app.goo.gl/YeAEGArkEyNbAZFCA",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Mirador dentro del Parque Nacional, con vistas directas al interior de la Caldera.",
     "foto": "assets/fotos/cumbrecita.webp",
     "imprescindible": true
   },
@@ -364,7 +364,7 @@
     "nombre": "Llano del Jable",
     "tipo": "Mirador",
     "url": "https://maps.app.goo.gl/ujZjnZrWZd2AN68X6",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Zona alta con ceniza volcánica, perfecta para ver puestas de sol y el mar de nubes.",
     "foto": "assets/fotos/llanojable.webp",
     "imprescindible": false
   },
@@ -373,7 +373,7 @@
     "nombre": "Volcán Tajogaite",
     "tipo": "Volcán",
     "url": "https://maps.app.goo.gl/7DqQnzioLPs8HuZv6",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Nuevo volcán surgido en 2021. Sendero habilitado para ver el paisaje reciente.",
     "foto": "assets/fotos/tajogaite.jpg",
     "imprescindible": true
   },
@@ -382,7 +382,7 @@
     "nombre": "Los Llanos de Aridane",
     "tipo": "Ciudad",
     "url": "https://maps.app.goo.gl/GP4qLhnViT1vTd39A",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Ciudad más poblada del oeste insular con plazas, comercios y mucho ambiente a cualquier hora.",
     "foto": "assets/fotos/losllanos.webp",
     "imprescindible": false
   },
@@ -391,7 +391,7 @@
     "nombre": "Puerto Tazacorte",
     "tipo": "Pueblo",
     "url": "https://maps.app.goo.gl/RFapcqwA72kMVLBaA",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Paseo amplio, restaurantes y la playa más cálida de la isla.",
     "foto": "assets/fotos/puertotazacorte.jpg",
     "imprescindible": false
   },
@@ -400,7 +400,7 @@
     "nombre": "Fancy Boat",
     "tipo": "Excursión en barco",
     "url": "https://maps.app.goo.gl/DJVQYRRgRQ7ix5Ht6",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Excursiones en barco para ver delfines, cuevas y acantilados del oeste.",
     "foto": "assets/fotos/fancy.avif",
     "imprescindible": false
   },
@@ -409,7 +409,7 @@
     "nombre": "Caldera de Taburiente",
     "tipo": "Ruta",
     "url": "https://maps.app.goo.gl/29MVWtkXuf1X74vN7",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Parque nacional, donde disfrutar de sus senderos y riachuelos.",
     "foto": "assets/fotos/taburiente.avif",
     "imprescindible": false
   },
@@ -418,7 +418,7 @@
     "nombre": "Mirador de El Time",
     "tipo": "Mirador",
     "url": "https://maps.app.goo.gl/qHtbarNmvEuQKY9x9",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Mirador sobre el Valle de Aridane y el acantilado de Tazacorte. Uno de los más impactantes.",
     "foto": "assets/fotos/eltime.jpg",
     "imprescindible": true
   },
@@ -427,7 +427,7 @@
     "nombre": "Porís de Candelaria",
     "tipo": "Piscina natural",
     "url": "https://maps.app.goo.gl/3AmTeZKDCTZ9RtZs7",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Cueva enorme que alberga un antiguo caserío marinero. Lugar muy especial.",
     "foto": "assets/fotos/poriscandelaria.avif",
     "imprescindible": false
   },
@@ -436,7 +436,7 @@
     "nombre": "Playa de La Veta",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/tqoPY7WzzPGjr69N8",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Playa remota a la que se accede por un sendero empinado. Impresiona el acantilado.",
     "foto": "assets/fotos/laveta.jpg",
     "imprescindible": false
   },
@@ -445,7 +445,7 @@
     "nombre": "Puerto de Puntagorda",
     "tipo": "Zona de baño",
     "url": "https://maps.app.goo.gl/tjEyoRZ6Zwd4Afja7",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Zona de baño tranquila con piscinas naturales pequeñas y ambiente local.",
     "foto": "assets/fotos/puertopuntagorda.jpg",
     "imprescindible": false
   },
@@ -454,7 +454,7 @@
     "nombre": "Mirador de Izcagua",
     "tipo": "Mirador",
     "url": "https://maps.app.goo.gl/WxXrWShwLiemxSmc9",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Mirador hacia los barrancos del noroeste y las terrazas agrícolas.",
     "foto": "assets/fotos/izcagua.jpg",
     "imprescindible": false
   },
@@ -463,7 +463,7 @@
     "nombre": "Mercado de Puntagorda",
     "tipo": "Mercado",
     "url": "https://maps.app.goo.gl/TjnnTU5GAuq3KNf99",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Uno de los mercados más conocidos de la isla. Productos locales y artesanía.",
     "foto": "assets/fotos/mercadopuntagorda.jpeg",
     "imprescindible": false
   },
@@ -472,7 +472,7 @@
     "nombre": "Las Tricias",
     "tipo": "Pueblo",
     "url": "https://maps.app.goo.gl/hBDhKXAeBo1nh6Zk6",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Pueblo lleno de senderos bonitos, dragos y viviendas tradicionales.",
     "foto": "assets/fotos/tricias.jpg",
     "imprescindible": false
   },
@@ -481,7 +481,7 @@
     "nombre": "Santo Domingo",
     "tipo": "Pueblo",
     "url": "https://maps.app.goo.gl/PASPDB1mhd98zKsS9",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Casco histórico del municipio de Garafía, muy auténtico y con miradores cercanos.",
     "foto": "assets/fotos/santodomingo.jpg",
     "imprescindible": false
   },
@@ -490,7 +490,7 @@
     "nombre": "Playa de Bujarén",
     "tipo": "Playa",
     "url": "https://maps.app.goo.gl/FsnzSgz1Ra6AECoV8",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Playa salvaje encajada entre acantilados, accesible solo a pie.",
     "foto": "assets/fotos/bujaren.jpg",
     "imprescindible": false
   },
@@ -499,7 +499,7 @@
     "nombre": "La Zarza",
     "tipo": "Parque arqueológico",
     "url": "https://maps.app.goo.gl/azDzgHHJ4tUdj8F37",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Parque arqueológico rodeado de monteverde y con petroglifos muy bien conservados.",
     "foto": "assets/fotos/zarza.jpg",
     "imprescindible": false
   },
@@ -508,7 +508,7 @@
     "nombre": "C.V. del Observatorio",
     "tipo": "Museo",
     "url": "https://maps.app.goo.gl/e9TeHRaZBZStw2XC8",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Espacio didáctico para conocer el trabajo del observatorio y la calidad del cielo palmero.",
     "foto": "assets/fotos/visitantesrm.jpg",
     "imprescindible": false
   },
@@ -517,7 +517,7 @@
     "nombre": "Roque de los Muchachos",
     "tipo": "Montaña",
     "url": "https://maps.app.goo.gl/cE2Q7hnQt1nQAEnK7",
-    "descripcion": "Descripción pendiente.",
+    "descripcion": "Punto más alto de la isla. Vistas increíbles y ambiente volcánico sobre el mar de nubes.",
     "foto": "assets/fotos/roquemuchachos.jpg",
     "imprescindible": true
   }
